@@ -71,7 +71,7 @@ for role, message in st.session_state.chat_history:
 # ----------------------------
 # Chat Input
 # ----------------------------
-user_input = st.chat_input("Ask me about insurance ...")
+user_input = st.chat_input("Ask me about Health insurance ...")
 
 # ----------------------------
 # On new user input, run controller
