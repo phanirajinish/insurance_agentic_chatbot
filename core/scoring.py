@@ -3,8 +3,8 @@ import numpy as np
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-DATA_PATH_v = os.path.join(BASE_DIR,"insurance_chatbot", "data", "df_variations.csv")
-DATA_PATH_r = os.path.join(BASE_DIR,"insurance_chatbot", "data", "dfv_variations.parquet")
+DATA_PATH_v = os.path.join(BASE_DIR,"insurance_agentic_chatbot", "data", "df_variations.csv")
+DATA_PATH_r = os.path.join(BASE_DIR,"insurance_agentic_chatbot", "data", "dfv_variations.parquet")
 
 df_all = pd.read_csv(DATA_PATH_v)
 df_rec = pd.read_parquet(DATA_PATH_r)
