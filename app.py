@@ -241,10 +241,16 @@ def render_profile_form():
             "Cancer (past or present)",
             "None of the above"
         ]
+        # selected_peds = st.multiselect(
+        #     "Select all that apply",
+        #     ped_options,
+        #     default=["None of the above"] if not st.session_state.get("form_peds") else st.session_state["form_peds"],
+        #     key="form_peds"
+        # )
         selected_peds = st.multiselect(
             "Select all that apply",
             ped_options,
-            default=["None of the above"] if not st.session_state.get("form_peds") else st.session_state["form_peds"],
+            default=st.session_state.get("form_peds", []),  # empty by default
             key="form_peds"
         )
 
