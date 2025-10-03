@@ -3,12 +3,12 @@ import streamlit as st
 
 COSTS = {
     "gpt-4o-mini": {
-        "input": 0.15 / 1_000_000,
-        "output": 0.60 / 1_000_000
+        "input": 0.15 / 1000,
+        "output": 0.60 / 1000
     },
     "gpt-4o": {
-        "input": 5.00 / 1_000_000,
-        "output": 15.00 / 1_000_000
+        "input": 5.00 / 1000,
+        "output": 15.00 / 1000
     }
 }
 
