@@ -56,9 +56,38 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action):
 
     # Step 5: Unknown intent
     if intent == "unknown":
+# Step 5: Unknown intent (context-aware handling)
+    # Case A: Profile incomplete → push to ask_info
+        if not is_profile_complete(updated_profile):
+            return {
+                "action": "ask_info",
+                "response": None,  # handled later by GPT or deterministic mapping
+                "updated_profile": updated_profile,
+                "updated_last_action": "ask_info"
+            }
+
+        # Case B: Last action was recommend → assume user wants clarification or comparison
+        if last_bot_action == "recommend":
+            return {
+                "action": "compare",
+                "response": None,
+                "updated_profile": updated_profile,
+                "updated_last_action": "compare"
+            }
+
+        # Case C: Last action was greeting or static → nudge towards recommendation
+        if last_bot_action in ["greeting", "static"]:
+            return {
+                "action": "recommend",
+                "response": None,
+                "updated_profile": updated_profile,
+                "updated_last_action": "recommend"
+            }
+
+        # Case D: Default fallback
         return {
             "action": "static",
-            "response": "Could you tell me a bit more about what you're looking for? I can help you compare plans, explain terms like co-pay, or recommend options.",
+            "response": "I didn’t quite get that. Do you want me to explain terms, recommend plans, or help compare options?",
             "updated_profile": updated_profile,
             "updated_last_action": "unknown"
         }
