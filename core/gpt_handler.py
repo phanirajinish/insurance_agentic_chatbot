@@ -3,8 +3,8 @@ import streamlit as st
 
 COSTS = {
     "gpt-4o-mini": {
-        "input": 0.15 / 1000,
-        "output": 0.60 / 1000
+        "input": 0.00015,
+        "output": 0.00060 
     },
     "gpt-4o": {
         "input": 5.00 / 1000,
@@ -38,10 +38,10 @@ def call_gpt(messages, model="gpt-4o-mini", temperature=0):
     total_tokens = usage.total_tokens
 
     cost_usd = (
-        input_tokens * COSTS[model]["input"]
-        + output_tokens * COSTS[model]["output"]
+        (input_tokens / 1000) * COSTS[model]["input"]
+        + (output_tokens / 1000) * COSTS[model]["output"]
     )
-    cost_inr = cost_usd * 83  # conversion rate placeholder
+    cost_inr = cost_usd * 83
 
     return {
         "output": output,
