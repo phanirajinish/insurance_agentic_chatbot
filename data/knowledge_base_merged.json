@@ -1,0 +1,823 @@
+{
+  "faqs": [],
+  "policies": [
+    {
+      "policy_id": "superstar_starhealth",
+      "name": "Super Star",
+      "insurer": "Star Health",
+      "uin": "SHAHLIP25036V012425",
+      "variants": [
+        {
+          "variant_name": "Super Star",
+          "sum_insured_options": [
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "1Cr",
+            "Unlimited"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18 years to Any Age",
+            "entry_age_child": "91 days to 25 years",
+            "family_size": "2 Adults + 4 Children",
+            "mid_term_inclusion": "New spouse, newborn, adopted child can be added anytime in policy year",
+            "co_payment": "Not applicable"
+          },
+          "policy_terms": {
+            "yearly": "1/2/3/4/5 years (no instalments for 4\u20135 years)",
+            "installments": "1/2/3 years with loading (4% monthly, 3% quarterly, 2% half-yearly)"
+          },
+          "zones": [
+            "Zone A",
+            "Zone B",
+            "Zone C"
+          ],
+          "coverage": [
+            "Room rent: Any room",
+            "In-patient hospitalization including professional fees, tests, medicines, ICU up to SI",
+            "Modern treatments & AYUSH covered up to SI",
+            "Pre-hospitalisation: 90 days, up to SI",
+            "Post-hospitalisation: 180 days, up to SI",
+            "Day care treatments covered up to SI",
+            "Home care treatment covered up to SI",
+            "Organ donor expenses including donor\u2019s post complications up to SI",
+            "Domiciliary hospitalisation covered up to SI",
+            "Road ambulance up to SI",
+            "Air ambulance (optional)",
+            "Unlimited tele-consultation via Star Health App",
+            "Domestic second medical opinion (network doctors)"
+          ],
+          "exclusions": [
+            "Cosmetic surgery",
+            "Dental treatment unless due to accident",
+            "Unlisted procedures or conditions as per policy wording"
+          ],
+          "riders": [
+            {
+              "rider_name": "Super Star Bonus",
+              "description": "100% additional SI after each renewal, no maximum limit"
+            },
+            {
+              "rider_name": "Quick Shield",
+              "description": "Waives PED WP for diabetes, hypertension, asthma, hyperlipidemia, CAD"
+            },
+            {
+              "rider_name": "Consumables Cover",
+              "description": "Covers 68 non-payable items"
+            },
+            {
+              "rider_name": "Future Shield",
+              "description": "Spouse inclusion within 120 days of marriage (individual only)"
+            },
+            {
+              "rider_name": "Maternity Expenses",
+              "description": "Option A: Delivery+Newborn (24M WP), Option B: Delivery+Newborn (12M WP), Option C: Assisted Reproduction (24M WP, 1 cycle/year)"
+            },
+            {
+              "rider_name": "Women Care",
+              "description": "Defects up to SI, scans required at 12 & 20 weeks"
+            },
+            {
+              "rider_name": "High-end Diagnostics",
+              "description": "Annual health check-up"
+            },
+            {
+              "rider_name": "Limitless Care",
+              "description": "WP reduction: procedures 2Y\u21921Y, PED 3Y\u21922Y/1Y"
+            },
+            {
+              "rider_name": "Smart Network",
+              "description": "15% premium discount for Smart Network hospitals, 15% co-pay outside network"
+            },
+            {
+              "rider_name": "Hospital Cash",
+              "description": "Daily cash 30/60/90/180 days depending on option"
+            },
+            {
+              "rider_name": "NRI Advantage",
+              "description": "10% discount for NRIs/OCIs"
+            },
+            {
+              "rider_name": "E-International Second Opinion",
+              "description": "One opinion/year from international doctors"
+            },
+            {
+              "rider_name": "Durable Medical Equipment",
+              "description": "Wheelchairs, concentrators, etc. once in lifetime"
+            },
+            {
+              "rider_name": "Compassionate Visit",
+              "description": "Travel benefit for a family member if hospitalised"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "36 months",
+            "maternity": "12\u201324 months depending on option"
+          },
+          "discounts": [
+            "Co-terminus: 2.5% if parents/parents-in-law also insured",
+            "Health questionnaire discount: up to 10%",
+            "CIBIL discount: up to 15% (for ages up to 50)",
+            "Early renewal: 2.5% (only 2nd & 3rd renewals)",
+            "Long term: 10%\u201316% for 2\u20135 years",
+            "Wellness rewards: up to 20% on renewal"
+          ],
+          "value_added_services": [
+            "Automatic restoration of SI unlimited times",
+            "Cumulative bonus 50%/year up to 100% SI",
+            "Freeze your Age benefit (till 55 years)",
+            "Dental check-up & cleaning (2nd & 3rd policy year)",
+            "Unlimited Automatic Restoration: 100% of SI restored for unrelated illnesses, unlimited times",
+            "Wellness Program: Earn rewards and discounts based on health activities",
+            "Second Medical Opinion: Available for major illnesses at no extra cost",
+            "Pre and Post Natal Expenses: Covered under maternity after waiting period (Gold and above)",
+            "Organ Donor Expenses: Covered up to sum insured"
+          ],
+          "special_conditions": [
+            "Optional covers Super Star Bonus, Limitless Care not available if Unlimited SI chosen",
+            "Voluntary co-payment and deductible cannot be opted together",
+            "Smart Network discount not available in Zone C"
+          ],
+          "premium_reference": {
+            "note": "Premium varies by Zone A/B/C, age band, family size, and tenure. Refer pricing sheet."
+          },
+          "co_pay_rules": "No co-pay below 60 years. 10%-20% based on entry age \u226560 years",
+          "network": {
+            "hospitals": "14,000+",
+            "cashless_claim_time": "Within 2 hours"
+          },
+          "renewal": {
+            "lifelong": true,
+            "grace_period": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "policy_id": "reassure2_nivabupa",
+      "name": "ReAssure 2.0",
+      "insurer": "Niva Bupa",
+      "uin": "NBHHLIP23169V012223",
+      "variants": [
+        {
+          "variant_name": "ReAssure 2.0",
+          "sum_insured_options": [
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "1Cr"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18 years to Any Age",
+            "entry_age_child": "91 days to 25 years (floater)",
+            "family_size": "2 Adults + 4 Children"
+          },
+          "policy_terms": {
+            "tenure": "1/2/3 years",
+            "installments": "Available with discounts (up to 16% for long term)"
+          },
+          "zones": [
+            "Tiered Network: 15% discount with co-pay if treated outside"
+          ],
+          "coverage": [
+            "In-patient care including AYUSH up to SI",
+            "Pre-hospitalisation: 60 days",
+            "Post-hospitalisation: 180 days",
+            "Modern treatments up to SI (1L sub-limit for some robotic surgeries)",
+            "Road ambulance up to SI",
+            "Air ambulance up to 2.5L per hospitalisation",
+            "Home care/domiciliary up to SI",
+            "Organ donor expenses up to SI",
+            "Annual health check-up (Day 1, up to defined limits)",
+            "Second medical opinion once per year",
+            "Unlimited e-consultations within network"
+          ],
+          "exclusions": [
+            "Unproven treatments not listed",
+            "Cosmetic or aesthetic surgery",
+            "Treatment outside policy scope (refer wordings)"
+          ],
+          "riders": [
+            {
+              "rider_name": "ReAssure+",
+              "description": "Triggers on 1st claim, unlimited reinstatement forever, each up to SI"
+            },
+            {
+              "rider_name": "Booster+ 5X",
+              "description": "Unutilised SI carried forward, up to 5X"
+            },
+            {
+              "rider_name": "Booster+ 10X",
+              "description": "Unutilised SI carried forward, up to 10X"
+            },
+            {
+              "rider_name": "Live Healthy",
+              "description": "Up to 30% premium discount at renewal"
+            },
+            {
+              "rider_name": "Hospital Cash",
+              "description": "Daily cash \u20b91k\u2013\u20b94k depending on SI"
+            },
+            {
+              "rider_name": "Personal Accident",
+              "description": "Equal to 5X SI, max 1Cr"
+            },
+            {
+              "rider_name": "Safeguard",
+              "description": "Covers non-payables, CPI-linked SI increase, no impact on Booster+ if claim <50k"
+            },
+            {
+              "rider_name": "Safeguard+",
+              "description": "Extended version, no impact on Booster+ if claim <1L, expanded non-payables"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "36 months",
+            "maternity": "Not covered"
+          },
+          "discounts": [
+            "Live Healthy discount up to 30% (renewal)",
+            "Long-term discount: 10\u201316%",
+            "Tiered Network discount: 15% premium discount (20% co-pay outside network)"
+          ],
+          "value_added_services": [
+            "Shared accommodation cash benefit: up to \u20b91,000/day",
+            "30-min cashless claim processing guarantee",
+            "Access to 10,000+ network hospitals"
+          ],
+          "special_conditions": [
+            "Booster+ accumulation capped at 5X or 10X depending on option",
+            "CPI-linked SI increase available under Safeguard+",
+            "Air ambulance capped at \u20b92.5L per hospitalisation"
+          ],
+          "premium_reference": {
+            "note": "Premium based on SI, age bands, family size, and tenure. Discounts available with Live Healthy and Network options."
+          }
+        }
+      ]
+    },
+    {
+      "policy_id": "aspire_nivabupa",
+      "name": "Aspire",
+      "insurer": "Niva Bupa",
+      "uin": "NBHHLIP24129V012324",
+      "variants": [
+        {
+          "variant_name": "Gold+",
+          "sum_insured_options": [
+            "3L",
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "1Cr"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18\u201335 years (focus group)",
+            "entry_age_child": "91 days to 25 years (floater)",
+            "family_size": "2 Adults + 4 Children",
+            "special": "Covers future spouse, maternity-focused design"
+          },
+          "coverage": [
+            "In-patient hospitalization including AYUSH (2+ hrs for all, 24+ hrs for AYUSH)",
+            "Pre-hospitalisation: 60 days",
+            "Post-hospitalisation: 180 days",
+            "Home care/domiciliary up to SI",
+            "Organ donor expenses up to SI",
+            "Annual health check-up (cashless, defined tests)",
+            "Unlimited e-consultations (network)",
+            "Second medical opinion (network only)"
+          ],
+          "exclusions": [
+            "Unproven treatments not listed",
+            "Cosmetic/aesthetic procedures",
+            "Maternity expenses until waiting period completed (varies by variant)"
+          ],
+          "riders": [
+            {
+              "rider_name": "ReAssure Forever",
+              "description": "Triggers after 1st claim; unlimited reinstatement forever"
+            },
+            {
+              "rider_name": "Lock the Clock",
+              "description": "Pay premium as per entry age until first claim"
+            },
+            {
+              "rider_name": "Lock the Clock+",
+              "description": "M-iracle claim won\u2019t impact age lock"
+            },
+            {
+              "rider_name": "Booster+",
+              "description": "Unutilised SI carried forward up to 10X depending on entry age"
+            },
+            {
+              "rider_name": "M-iracle",
+              "description": "Comprehensive maternity coverage: maternity, IVF, surrogacy, adoption"
+            },
+            {
+              "rider_name": "Fast Forward",
+              "description": "Bring forward future Base SI + M-iracle SI for use now"
+            },
+            {
+              "rider_name": "Borderless",
+              "description": "Treatment anywhere in the world up to SI"
+            },
+            {
+              "rider_name": "Cash-Bag",
+              "description": "Accumulate cashback on claim-free years, usable for premium/OPD/deductibles"
+            },
+            {
+              "rider_name": "Safeguard+",
+              "description": "Expanded safeguard: non-payables, Booster+ protection, CPI-linked SI increase"
+            },
+            {
+              "rider_name": "Personal Accident",
+              "description": "1X\u20135X SI, max 1Cr"
+            },
+            {
+              "rider_name": "Hospital Daily Cash",
+              "description": "\u20b91k\u2013\u20b94k per day depending on SI"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "36 months",
+            "maternity": "Varies: Gold+ 48M, Diamond+/Platinum+/Titanium+ 9\u201324M"
+          },
+          "discounts": [
+            "Live Healthy: up to 30% premium discount",
+            "Cash-Bag: 10% of 1st renewal premium, 5% subsequent years (usable balance)",
+            "Tiered Network: 15% premium discount with 20% co-pay outside network"
+          ],
+          "value_added_services": [
+            "WellConsult OPD coverage (consultations, diagnostics, pharmacy, gym, wellness)",
+            "ReAssure Forever unlimited restoration benefit",
+            "Cash-Bag cashback wallet",
+            "Lock the Clock premium freeze"
+          ],
+          "special_conditions": [
+            "Premium locked at entry age until first claim",
+            "M-iracle SI accumulates up to 10X over time",
+            "Waiting period for maternity depends on variant",
+            "Fast Forward and Booster+ benefits work jointly on SI",
+            "Future Ready add-on ensures continuity for future spouse"
+          ],
+          "premium_reference": {
+            "note": "Premium depends on variant, SI, age, family size. Discounts applied via Live Healthy, Cash-Bag, and Tiered Network."
+          },
+          "variant_details": {
+            "Gold+": {
+              "Maternity Waiting Period": "48 months",
+              "Booster+": {
+                "Entry Age 18-35": "up to 3X",
+                "Entry Age 36-45": "up to 2X",
+                "Entry Age 46+": "up to 1X"
+              },
+              "Lock the Clock": "Not Applicable"
+            },
+            "Diamond+": {
+              "Maternity Waiting Period": "24 months",
+              "Booster+": {
+                "Entry Age 18-35": "up to 5X",
+                "Entry Age 36-45": "up to 3X",
+                "Entry Age 46+": "up to 2X"
+              },
+              "Lock the Clock": "Yes"
+            },
+            "Platinum+": {
+              "Maternity Waiting Period": "9 months",
+              "Booster+": {
+                "Entry Age 18-35": "up to 10X",
+                "Entry Age 36-45": "up to 5X",
+                "Entry Age 46+": "up to 3X"
+              },
+              "Lock the Clock": "Yes"
+            },
+            "Titanium+": {
+              "Maternity Waiting Period": "9 months",
+              "Booster+": {
+                "Entry Age 18-35": "up to 10X",
+                "Entry Age 36-45": "up to 5X",
+                "Entry Age 46+": "up to 3X"
+              },
+              "Lock the Clock+": "Yes"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "policy_id": "optimasecure_hdfcergo",
+      "name": "Optima Secure",
+      "insurer": "HDFC Ergo",
+      "uin": "HDFHLIP25041V062425",
+      "variants": [
+        {
+          "variant_name": "Optima Secure",
+          "sum_insured_options": [
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "2Cr"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18 years to No Limit",
+            "entry_age_child": "91 days to 25 years",
+            "family_size": "Up to 2 Adults + 3 Children",
+            "policy_term": "1/2/3 years (installments allowed)",
+            "premium_payment": "Monthly/Quarterly/Half-yearly/Annual"
+          },
+          "coverage": [
+            "In-patient hospitalization including AYUSH, covered up to SI",
+            "Pre-hospitalisation: 60 days",
+            "Post-hospitalisation: 180 days",
+            "Day-care treatments covered up to SI",
+            "Organ donor expenses up to SI",
+            "Home care/domiciliary hospitalization covered up to SI",
+            "Road ambulance up to SI",
+            "Air ambulance: up to \u20b95L (optional)",
+            "Preventive health check-ups annually",
+            "E-opinion on 51 illnesses"
+          ],
+          "exclusions": [
+            "Unproven treatments",
+            "Cosmetic or aesthetic surgery",
+            "Congenital diseases unless covered under newborn add-on"
+          ],
+          "riders": [
+            {
+              "rider_name": "Secure Benefit",
+              "description": "Base SI doubled instantly from Day 1"
+            },
+            {
+              "rider_name": "Plus Benefit",
+              "description": "50% SI increase after 1 year, 100% after 2 years (irrespective of claims)"
+            },
+            {
+              "rider_name": "Restore Benefit",
+              "description": "100% SI restored after a claim in the same policy year"
+            },
+            {
+              "rider_name": "Protect Benefit",
+              "description": "Zero deduction on listed non-medical expenses"
+            },
+            {
+              "rider_name": "Unlimited Restore (Add-on)",
+              "description": "Unlimited restorations per year (optional)"
+            },
+            {
+              "rider_name": "Personal Accident Rider",
+              "description": "Covers accidental death, PTD, PPD"
+            },
+            {
+              "rider_name": "Optima Wellbeing (Add-on)",
+              "description": "OPD, outpatient benefits, wellness services"
+            },
+            {
+              "rider_name": "Critical Illness Rider",
+              "description": "Coverage for 51 illnesses, up to 2Cr"
+            },
+            {
+              "rider_name": "Hospital Cash Benefit",
+              "description": "Daily hospital cash \u20b9500\u2013\u20b910,000"
+            },
+            {
+              "rider_name": "Aggregate Deductible",
+              "description": "\u20b925k deductible option with 25% discount"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "36 months",
+            "maternity": "24 months (if opted via add-on)"
+          },
+          "discounts": [
+            "25% premium discount if deductible of \u20b93L opted (for SI \u226420L)",
+            "Long-term discount for 2\u20133 years",
+            "Wellness-linked renewal benefits"
+          ],
+          "value_added_services": [
+            "4X Coverage (Secure+Plus+Restore+Protect combined)",
+            "Preventive health check-ups",
+            "Zero deductions on non-medical expenses (Protect Benefit)",
+            "Cashless claims processing across 15,000+ hospitals",
+            "Secure Benefit: Automatically increases base sum insured by 100% from day one, at no extra cost",
+            "Plus Benefit: Adds 100% of base SI every year, max 5X, regardless of claims",
+            "Restore Benefit: Instant 100% restoration for unrelated illness, unlimited times",
+            "Multiplier Benefit: No-claim bonus of 50% SI per year, up to 100%, drops by 50% on claim",
+            "Stay Active Benefit: Rewards up to 8% discount on renewal for staying healthy"
+          ],
+          "special_conditions": [
+            "Secure and Plus benefits guaranteed irrespective of claims",
+            "One-time option to waive deductible after 5 years",
+            "Single claim cannot exceed combined SI + Plus + Secure + Restore benefits"
+          ],
+          "premium_reference": {
+            "note": "Premium varies by SI, age, and deductible chosen. 25% discount for deductible option."
+          },
+          "co_pay_rules": "No co-pay for age <61, 20% after that unless opted otherwise",
+          "network": {
+            "hospitals": "12,000+",
+            "cashless_claim_time": "Within 60 minutes"
+          },
+          "renewal": {
+            "lifelong": true,
+            "grace_period": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "policy_id": "elevate_icicilombard",
+      "name": "Elevate",
+      "insurer": "ICICI Lombard",
+      "uin": "ICICI-ELEVATE-UIN-NOTED",
+      "variants": [
+        {
+          "variant_name": "Elevate",
+          "sum_insured_options": [
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "1Cr",
+            "3Cr",
+            "Unlimited"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18 years to No Limit",
+            "entry_age_child": "91 days to 30 years",
+            "family_size": "Up to 2 Adults + 3 Children",
+            "policy_term": "1/2/3 years",
+            "premium_payment": "Annual with optional installments"
+          },
+          "coverage": [
+            "In-patient hospitalization up to SI",
+            "Day care procedures up to SI",
+            "Modern treatments up to SI",
+            "Pre-hospitalisation: 90 days",
+            "Post-hospitalisation: 180 days",
+            "AYUSH in-patient care up to SI",
+            "Road ambulance up to SI",
+            "Organ donor expenses up to SI",
+            "Domiciliary hospitalisation covered",
+            "Wellness program with discounts, ambulance assistance, health services",
+            "Bariatric surgery up to SI",
+            "Oocyte donor treatment up to 5L",
+            "Surrogacy patient treatment up to 5L"
+          ],
+          "exclusions": [
+            "Unproven treatments not listed",
+            "Cosmetic or aesthetic procedures",
+            "PED not covered until waiting period completed"
+          ],
+          "riders": [
+            {
+              "rider_name": "Infinite Care",
+              "description": "Optional \u2013 Unlimited SI for any one claim (must opt within 2 years)"
+            },
+            {
+              "rider_name": "Power Booster (Super Bonus)",
+              "description": "100% additional SI every year, unlimited accumulation irrespective of claims"
+            },
+            {
+              "rider_name": "Jumpstart Add-on",
+              "description": "Covers PED waiting for Diabetes, Hypertension, Asthma, Hyperlipidemia, CAD (after 2 years)"
+            },
+            {
+              "rider_name": "Maternity Benefit",
+              "description": "Up to 10% of SI (\u20b950k\u20131L); 2Y waiting; includes newborn + vaccinations"
+            },
+            {
+              "rider_name": "BeFit Add-on",
+              "description": "Outpatient services and preventive care"
+            },
+            {
+              "rider_name": "Claim Protector",
+              "description": "Covers non-payables within SI"
+            },
+            {
+              "rider_name": "Inflation Protector",
+              "description": "Annual SI increase linked to inflation"
+            },
+            {
+              "rider_name": "Air Ambulance Add-on",
+              "description": "Optional domestic air ambulance up to SI"
+            },
+            {
+              "rider_name": "Convalescence Benefit",
+              "description": "\u20b920,000 lump sum for long hospitalisation"
+            },
+            {
+              "rider_name": "Home Nursing Benefit",
+              "description": "\u20b92,000/day up to 10 days"
+            },
+            {
+              "rider_name": "Compassionate Visit",
+              "description": "\u20b920,000 travel allowance"
+            },
+            {
+              "rider_name": "Health Check-up Add-on",
+              "description": "0.5% of SI, max \u20b95,000 annually"
+            },
+            {
+              "rider_name": "Critical Illness Rider",
+              "description": "Up to 50L (adults \u226450 yrs)"
+            },
+            {
+              "rider_name": "Personal Accident Rider",
+              "description": "Up to 50L (adults \u226465 yrs)"
+            },
+            {
+              "rider_name": "Dependent Accommodation Cash",
+              "description": "\u20b91,000/day up to 10 days"
+            },
+            {
+              "rider_name": "Durable Medical Equipment Cover",
+              "description": "Within SI, up to \u20b95L once in lifetime"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "36 months",
+            "maternity": "24 months (if opted as add-on)"
+          },
+          "discounts": [
+            "Wellness points: up to 30% discount on renewal",
+            "Family and long-term discounts available",
+            "Zone-based premium variations"
+          ],
+          "value_added_services": [
+            "Guaranteed cumulative bonus: 20% SI/year, up to 100% (no reduction after claim)",
+            "Unlimited reset of SI for any illness",
+            "Wellness rewards linked to activity tracking",
+            "Apollo 24|7 tie-in for health services",
+            "2X / 3X Multiplier: Boosts base sum insured by 2X or 3X over time with no-claim bonus",
+            "Unlimited Reset: 100% reset of SI for unrelated illnesses, unlimited times",
+            "Outpatient Cover: OPD consultations and pharmacy covered up to INR 5,000\u201315,000 based on variant",
+            "Wellness Points: Earn rewards through health tracking and redeem on premiums",
+            "No Room Rent Limit: Freedom to choose any room type without restrictions"
+          ],
+          "special_conditions": [
+            "Infinite Care must be opted in first 2 policy years",
+            "PED waiver available only through Jumpstart Add-on",
+            "Maternity coverage capped (50k\u20131L) with 2 deliveries allowed",
+            "Voluntary co-payment 10\u201350% available",
+            "Room rent: any category unless modified"
+          ],
+          "premium_reference": {
+            "note": "Premium based on SI, age bands, family size, and zone (4-zone system). Optional covers affect pricing."
+          },
+          "co_pay_rules": "No co-pay by default unless customized",
+          "network": {
+            "hospitals": "7,500+",
+            "cashless_claim_time": "Within 60 minutes"
+          },
+          "renewal": {
+            "lifelong": true,
+            "grace_period": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "policy_id": "care_carehealth",
+      "name": "Care",
+      "insurer": "Care Health Insurance",
+      "uin": "CAREHLIP-UIN-NOTED",
+      "variants": [
+        {
+          "variant_name": "Care",
+          "sum_insured_options": [
+            "5L",
+            "7.5L",
+            "10L",
+            "15L",
+            "20L",
+            "25L",
+            "50L",
+            "75L"
+          ],
+          "eligibility": {
+            "entry_age_individual": "18 years to No Limit",
+            "entry_age_child": "91 days to 24 years",
+            "family_size": "2 Adults + 4 Children",
+            "policy_term": "1/2/3 years"
+          },
+          "coverage": [
+            "In-patient hospitalization including ICU charges up to SI",
+            "Pre-hospitalisation: 30 days",
+            "Post-hospitalisation: 60\u2013180 days (depending on variant)",
+            "Day-care procedures covered up to SI",
+            "Organ donor expenses up to SI",
+            "AYUSH in-patient care up to SI",
+            "Ambulance expenses (road) covered",
+            "Air ambulance (higher SI variants)",
+            "Annual health check-up",
+            "Unlimited automatic SI restoration after 1st claim",
+            "Cumulative bonus up to 100% SI"
+          ],
+          "exclusions": [
+            "Unproven or experimental treatments",
+            "Cosmetic and aesthetic procedures",
+            "Pre-existing diseases until waiting period completed"
+          ],
+          "riders": [
+            {
+              "rider_name": "Unlimited Restoration",
+              "description": "Refill of SI unlimited times in a policy year"
+            },
+            {
+              "rider_name": "Care Shield",
+              "description": "Covers non-payables, CPI-linked SI increase, protects NCB"
+            },
+            {
+              "rider_name": "Maternity Add-on",
+              "description": "Covers delivery (12\u201324M WP) + newborn cover"
+            },
+            {
+              "rider_name": "OPD Add-on",
+              "description": "Consultations, diagnostics, pharmacy benefits"
+            },
+            {
+              "rider_name": "Wellness Add-on",
+              "description": "Teleconsultations, wellness rewards"
+            },
+            {
+              "rider_name": "Personal Accident Rider",
+              "description": "Accidental death & disability cover"
+            },
+            {
+              "rider_name": "Critical Illness Rider",
+              "description": "Lump sum on diagnosis of listed CI"
+            }
+          ],
+          "waiting_periods": {
+            "initial": "30 days",
+            "specific_diseases": "24 months",
+            "pre_existing_diseases": "48 months",
+            "maternity": "12\u201324 months depending on add-on"
+          },
+          "discounts": [
+            "Long-term policy discount",
+            "Early renewal discount",
+            "Wellness-linked renewal rewards"
+          ],
+          "value_added_services": [
+            "Wellness rewards (up to 20%)",
+            "Access to Apollo network doctors",
+            "Teleconsultations and second opinions",
+            "Annual health check-up from Year 1",
+            "Unlimited Automatic Recharge: Recharge up to 100% of SI for different illness, unlimited times",
+            "No Claim Bonus Super: 50% increase in SI per year, up to 100% even with claims",
+            "Care Shield Add-on: Covers inflation, ensures no proportionate deduction, and additional coverage",
+            "Daily Allowance: Allowance for hospital stay, varies by variant",
+            "Global Coverage: Available with optional add-on"
+          ],
+          "special_conditions": [
+            "NCB capped at 100% SI",
+            "Maternity benefit optional and available only if selected",
+            "Air ambulance benefit available only at higher SI"
+          ],
+          "premium_reference": {
+            "note": "Premium depends on SI, age, and family size; discounts applied for long term and wellness."
+          },
+          "co_pay_rules": "20% co-pay for age \u226561 unless waived by rider",
+          "network": {
+            "hospitals": "19,000+",
+            "cashless_claim_time": "Within 2 hours"
+          },
+          "renewal": {
+            "lifelong": true,
+            "grace_period": "30 days"
+          }
+        }
+      ]
+    }
+  ]
+}

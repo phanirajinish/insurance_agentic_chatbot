@@ -1,0 +1,3600 @@
+[
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-3",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-4",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-5",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-6",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-7",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-8",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "Unlimited",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-sum_insured_options-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "sum_insured_options",
+    "content": "5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 1Cr | Unlimited",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-eligibility-entry_age_individual",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18 years to Any Age",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-eligibility-entry_age_child",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 25 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-eligibility-family_size",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "eligibility",
+    "content": "family_size: 2 Adults + 4 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-eligibility-mid_term_inclusion",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "eligibility",
+    "content": "mid_term_inclusion: New spouse, newborn, adopted child can be added anytime in policy year",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-eligibility-co_payment",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "eligibility",
+    "content": "co_payment: Not applicable",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-policy_terms-yearly",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "policy_terms",
+    "content": "yearly: 1/2/3/4/5 years (no instalments for 4\u20135 years)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-policy_terms-installments",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "policy_terms",
+    "content": "installments: 1/2/3 years with loading (4% monthly, 3% quarterly, 2% half-yearly)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-zones-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "zones",
+    "content": "Zone A",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-zones-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "zones",
+    "content": "Zone B",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-zones-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "zones",
+    "content": "Zone C",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-zones-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "zones",
+    "content": "Zone A | Zone B | Zone C",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Room rent: Any room",
+    "feature_tags": [
+      "room_rent"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "In-patient hospitalization including professional fees, tests, medicines, ICU up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Modern treatments & AYUSH covered up to SI",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-3",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 90 days, up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-4",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 180 days, up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-5",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Day care treatments covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-6",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Home care treatment covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-7",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Organ donor expenses including donor\u2019s post complications up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-8",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Domiciliary hospitalisation covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-9",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Road ambulance up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-10",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Air ambulance (optional)",
+    "feature_tags": [
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-11",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Unlimited tele-consultation via Star Health App",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-12",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Domestic second medical opinion (network doctors)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-coverage-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "coverage",
+    "content": "Room rent: Any room | In-patient hospitalization including professional fees, tests, medicines, ICU up to SI | Modern treatments & AYUSH covered up to SI | Pre-hospitalisation: 90 days, up to SI | Post-hospitalisation: 180 days, up to SI | Day care treatments covered up to SI | Home care treatment covered up to SI | Organ donor expenses including donor\u2019s post complications up to SI | Domiciliary hospitalisation covered up to SI | Road ambulance up to SI | Air ambulance (optional) | Unlimited tele-consultation via Star Health App | Domestic second medical opinion (network doctors)",
+    "feature_tags": [
+      "room_rent",
+      "air_ambulance",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-exclusions-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "exclusions",
+    "content": "Cosmetic surgery",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-exclusions-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "exclusions",
+    "content": "Dental treatment unless due to accident",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-exclusions-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "exclusions",
+    "content": "Unlisted procedures or conditions as per policy wording",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-exclusions-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "exclusions",
+    "content": "Cosmetic surgery | Dental treatment unless due to accident | Unlisted procedures or conditions as per policy wording",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-waiting_periods-initial",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-waiting_periods-specific_diseases",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-waiting_periods-pre_existing_diseases",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 36 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-waiting_periods-maternity",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "waiting_periods",
+    "content": "maternity: 12\u201324 months depending on option",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Co-terminus: 2.5% if parents/parents-in-law also insured",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Health questionnaire discount: up to 10%",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "CIBIL discount: up to 15% (for ages up to 50)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-3",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Early renewal: 2.5% (only 2nd & 3rd renewals)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-4",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Long term: 10%\u201316% for 2\u20135 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-5",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Wellness rewards: up to 20% on renewal",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-discounts-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "discounts",
+    "content": "Co-terminus: 2.5% if parents/parents-in-law also insured | Health questionnaire discount: up to 10% | CIBIL discount: up to 15% (for ages up to 50) | Early renewal: 2.5% (only 2nd & 3rd renewals) | Long term: 10%\u201316% for 2\u20135 years | Wellness rewards: up to 20% on renewal",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Automatic restoration of SI unlimited times",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Cumulative bonus 50%/year up to 100% SI",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Freeze your Age benefit (till 55 years)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-3",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Dental check-up & cleaning (2nd & 3rd policy year)",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-4",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Unlimited Automatic Restoration: 100% of SI restored for unrelated illnesses, unlimited times",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-5",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Wellness Program: Earn rewards and discounts based on health activities",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-6",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Second Medical Opinion: Available for major illnesses at no extra cost",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-7",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Pre and Post Natal Expenses: Covered under maternity after waiting period (Gold and above)",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-8",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Organ Donor Expenses: Covered up to sum insured",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-value_added_services-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "value_added_services",
+    "content": "Automatic restoration of SI unlimited times | Cumulative bonus 50%/year up to 100% SI | Freeze your Age benefit (till 55 years) | Dental check-up & cleaning (2nd & 3rd policy year) | Unlimited Automatic Restoration: 100% of SI restored for unrelated illnesses, unlimited times | Wellness Program: Earn rewards and discounts based on health activities | Second Medical Opinion: Available for major illnesses at no extra cost | Pre and Post Natal Expenses: Covered under maternity after waiting period (Gold and above) | Organ Donor Expenses: Covered up to sum insured",
+    "feature_tags": [
+      "maternity",
+      "restore",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-special_conditions-0",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "special_conditions",
+    "content": "Optional covers Super Star Bonus, Limitless Care not available if Unlimited SI chosen",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-special_conditions-1",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "special_conditions",
+    "content": "Voluntary co-payment and deductible cannot be opted together",
+    "feature_tags": [
+      "copay",
+      "deductible"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-special_conditions-2",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "special_conditions",
+    "content": "Smart Network discount not available in Zone C",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-special_conditions-SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "special_conditions",
+    "content": "Optional covers Super Star Bonus, Limitless Care not available if Unlimited SI chosen | Voluntary co-payment and deductible cannot be opted together | Smart Network discount not available in Zone C",
+    "feature_tags": [
+      "copay",
+      "deductible",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-premium_reference-note",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "premium_reference",
+    "content": "note: Premium varies by Zone A/B/C, age band, family size, and tenure. Refer pricing sheet.",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-co_pay_rules",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "co_pay_rules",
+    "content": "No co-pay below 60 years. 10%-20% based on entry age \u226560 years",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Super_Star-Super_Star-network-hospitals",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "network",
+    "content": "hospitals: 14,000+",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-network-cashless_claim_time",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "network",
+    "content": "cashless_claim_time: Within 2 hours",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-renewal-lifelong",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "renewal",
+    "content": "lifelong: True",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-renewal-grace_period",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "renewal",
+    "content": "grace_period: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Super_Star-Super_Star-VARIANT_SUMMARY",
+    "policy": "Super Star",
+    "insurer": "Star Health",
+    "variant": "Super Star",
+    "section": "variant_summary",
+    "content": "Room rent: Any room | In-patient hospitalization including professional fees, tests, medicines, ICU up to SI | Modern treatments & AYUSH covered up to SI | Pre-hospitalisation: 90 days, up to SI | Post-hospitalisation: 180 days, up to SI | Day care treatments covered up to SI | Home care treatment covered up to SI | Organ donor expenses including donor\u2019s post complications up to SI | Domiciliary hospitalisation covered up to SI | Road ambulance up to SI | Air ambulance (optional) | Unlimited tele-consultation via Star Health App | Domestic second medical opinion (network doctors) | Room rent: Any room | In-patient hospitalization including professional fees, tests, medicines, ICU up to SI | Modern treatments & AYUSH covered up to SI | Pre-hospitalisation: 90 days, up to SI | Post-hospitalisation: 180 days, up to SI | Day care treatments covered up to SI | Home care treatment covered up to SI | Organ donor expenses including donor\u2019s post complications up to SI | Domiciliary hospitalisation covered up to SI | Road ambulance up to SI | Air ambulance (optional) | Unlimited tele-consultation via Star Health App | Domestic second medical opinion (network doctors) | Cosmetic surgery | Dental treatment unless due to accident | Unlisted procedures or conditions as per policy wording | Cosmetic surgery | Dental treatment unless due to accident | Unlisted procedures or conditions as per policy wording | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 36 months | maternity: 12\u201324 months depending on option | Automatic restoration of SI unlimited times | Cumulative bonus 50%/year up to 100% SI | Freeze your Age benefit (till 55 years) | Dental check-up & cleaning (2nd & 3rd policy year) | Unlimited Automatic Restoration: 100% of SI restored for unrelated illnesses, unlimited times | Wellness Program: Earn rewards and discounts based on health activities | Second Medical Opinion: Available for major illnesses at no extra cost | Pre and Post Natal Expenses: Covered under maternity after waiting period (Gold and above) | Organ Donor Expenses: Covered up to sum insured | Automatic restoration of SI unlimited times | Cumulative bonus 50%/year up to 100% SI | Freeze your Age benefit (till 55 years) | Dental check-up & cleaning (2nd & 3rd policy year) | Unlimited Automatic Restoration: 100% of SI restored for unrelated illnesses, unlimited times | Wellness Program: Earn rewards and discounts based on health activities | Second Medical Opinion: Available for major illnesses at no extra cost | Pre and Post Natal Expenses: Covered under maternity after waiting period (Gold and above) | Organ Donor Expenses: Covered up to sum insured",
+    "feature_tags": [
+      "maternity",
+      "room_rent",
+      "restore",
+      "air_ambulance",
+      "bonus",
+      "ayush"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-3",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-4",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-5",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-6",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-7",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-sum_insured_options-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "sum_insured_options",
+    "content": "5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-eligibility-entry_age_individual",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18 years to Any Age",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-eligibility-entry_age_child",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 25 years (floater)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-eligibility-family_size",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "eligibility",
+    "content": "family_size: 2 Adults + 4 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-policy_terms-tenure",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "policy_terms",
+    "content": "tenure: 1/2/3 years",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-policy_terms-installments",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "policy_terms",
+    "content": "installments: Available with discounts (up to 16% for long term)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-zones-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "zones",
+    "content": "Tiered Network: 15% discount with co-pay if treated outside",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-zones-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "zones",
+    "content": "Tiered Network: 15% discount with co-pay if treated outside",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "In-patient care including AYUSH up to SI",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 60 days",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 180 days",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-3",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Modern treatments up to SI (1L sub-limit for some robotic surgeries)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-4",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Road ambulance up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-5",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Air ambulance up to 2.5L per hospitalisation",
+    "feature_tags": [
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-6",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Home care/domiciliary up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-7",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Organ donor expenses up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-8",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Annual health check-up (Day 1, up to defined limits)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-9",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Second medical opinion once per year",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-10",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "Unlimited e-consultations within network",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-coverage-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "coverage",
+    "content": "In-patient care including AYUSH up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Modern treatments up to SI (1L sub-limit for some robotic surgeries) | Road ambulance up to SI | Air ambulance up to 2.5L per hospitalisation | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (Day 1, up to defined limits) | Second medical opinion once per year | Unlimited e-consultations within network",
+    "feature_tags": [
+      "air_ambulance",
+      "ayush"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-exclusions-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-exclusions-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "exclusions",
+    "content": "Cosmetic or aesthetic surgery",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-exclusions-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "exclusions",
+    "content": "Treatment outside policy scope (refer wordings)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-exclusions-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed | Cosmetic or aesthetic surgery | Treatment outside policy scope (refer wordings)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-waiting_periods-initial",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-waiting_periods-specific_diseases",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-waiting_periods-pre_existing_diseases",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 36 months",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-waiting_periods-maternity",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "waiting_periods",
+    "content": "maternity: Not covered",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-discounts-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "discounts",
+    "content": "Live Healthy discount up to 30% (renewal)",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-discounts-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "discounts",
+    "content": "Long-term discount: 10\u201316%",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-discounts-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "discounts",
+    "content": "Tiered Network discount: 15% premium discount (20% co-pay outside network)",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-discounts-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "discounts",
+    "content": "Live Healthy discount up to 30% (renewal) | Long-term discount: 10\u201316% | Tiered Network discount: 15% premium discount (20% co-pay outside network)",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-value_added_services-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "value_added_services",
+    "content": "Shared accommodation cash benefit: up to \u20b91,000/day",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-value_added_services-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "value_added_services",
+    "content": "30-min cashless claim processing guarantee",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-value_added_services-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "value_added_services",
+    "content": "Access to 10,000+ network hospitals",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-value_added_services-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "value_added_services",
+    "content": "Shared accommodation cash benefit: up to \u20b91,000/day | 30-min cashless claim processing guarantee | Access to 10,000+ network hospitals",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-special_conditions-0",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "special_conditions",
+    "content": "Booster+ accumulation capped at 5X or 10X depending on option",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-special_conditions-1",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "special_conditions",
+    "content": "CPI-linked SI increase available under Safeguard+",
+    "feature_tags": [
+      "non_payables"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-special_conditions-2",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "special_conditions",
+    "content": "Air ambulance capped at \u20b92.5L per hospitalisation",
+    "feature_tags": [
+      "ped",
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-special_conditions-SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "special_conditions",
+    "content": "Booster+ accumulation capped at 5X or 10X depending on option | CPI-linked SI increase available under Safeguard+ | Air ambulance capped at \u20b92.5L per hospitalisation",
+    "feature_tags": [
+      "ped",
+      "non_payables",
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-premium_reference-note",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "premium_reference",
+    "content": "note: Premium based on SI, age bands, family size, and tenure. Discounts available with Live Healthy and Network options.",
+    "feature_tags": []
+  },
+  {
+    "id": "ReAssure_2.0-ReAssure_2.0-VARIANT_SUMMARY",
+    "policy": "ReAssure 2.0",
+    "insurer": "Niva Bupa",
+    "variant": "ReAssure 2.0",
+    "section": "variant_summary",
+    "content": "In-patient care including AYUSH up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Modern treatments up to SI (1L sub-limit for some robotic surgeries) | Road ambulance up to SI | Air ambulance up to 2.5L per hospitalisation | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (Day 1, up to defined limits) | Second medical opinion once per year | Unlimited e-consultations within network | In-patient care including AYUSH up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Modern treatments up to SI (1L sub-limit for some robotic surgeries) | Road ambulance up to SI | Air ambulance up to 2.5L per hospitalisation | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (Day 1, up to defined limits) | Second medical opinion once per year | Unlimited e-consultations within network | Unproven treatments not listed | Cosmetic or aesthetic surgery | Treatment outside policy scope (refer wordings) | Unproven treatments not listed | Cosmetic or aesthetic surgery | Treatment outside policy scope (refer wordings) | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 36 months | maternity: Not covered | Shared accommodation cash benefit: up to \u20b91,000/day | 30-min cashless claim processing guarantee | Access to 10,000+ network hospitals | Shared accommodation cash benefit: up to \u20b91,000/day | 30-min cashless claim processing guarantee | Access to 10,000+ network hospitals",
+    "feature_tags": [
+      "maternity",
+      "air_ambulance",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "3L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-3",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-4",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-5",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-6",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-7",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-8",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-sum_insured_options-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "sum_insured_options",
+    "content": "3L | 5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-eligibility-entry_age_individual",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18\u201335 years (focus group)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-eligibility-entry_age_child",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 25 years (floater)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-eligibility-family_size",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "eligibility",
+    "content": "family_size: 2 Adults + 4 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-eligibility-special",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "eligibility",
+    "content": "special: Covers future spouse, maternity-focused design",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-coverage-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "In-patient hospitalization including AYUSH (2+ hrs for all, 24+ hrs for AYUSH)",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-coverage-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 60 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 180 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-3",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Home care/domiciliary up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-4",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Organ donor expenses up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-5",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Annual health check-up (cashless, defined tests)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-6",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Unlimited e-consultations (network)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-7",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "Second medical opinion (network only)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-coverage-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "coverage",
+    "content": "In-patient hospitalization including AYUSH (2+ hrs for all, 24+ hrs for AYUSH) | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (cashless, defined tests) | Unlimited e-consultations (network) | Second medical opinion (network only)",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-exclusions-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-exclusions-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "exclusions",
+    "content": "Cosmetic/aesthetic procedures",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-exclusions-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "exclusions",
+    "content": "Maternity expenses until waiting period completed (varies by variant)",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-exclusions-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed | Cosmetic/aesthetic procedures | Maternity expenses until waiting period completed (varies by variant)",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-waiting_periods-initial",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-waiting_periods-specific_diseases",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-waiting_periods-pre_existing_diseases",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 36 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-waiting_periods-maternity",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "waiting_periods",
+    "content": "maternity: Varies: Gold+ 48M, Diamond+/Platinum+/Titanium+ 9\u201324M",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-discounts-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "discounts",
+    "content": "Live Healthy: up to 30% premium discount",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-discounts-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "discounts",
+    "content": "Cash-Bag: 10% of 1st renewal premium, 5% subsequent years (usable balance)",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-discounts-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "discounts",
+    "content": "Tiered Network: 15% premium discount with 20% co-pay outside network",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-discounts-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "discounts",
+    "content": "Live Healthy: up to 30% premium discount | Cash-Bag: 10% of 1st renewal premium, 5% subsequent years (usable balance) | Tiered Network: 15% premium discount with 20% co-pay outside network",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-value_added_services-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "value_added_services",
+    "content": "WellConsult OPD coverage (consultations, diagnostics, pharmacy, gym, wellness)",
+    "feature_tags": [
+      "opd"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-value_added_services-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "value_added_services",
+    "content": "ReAssure Forever unlimited restoration benefit",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-value_added_services-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "value_added_services",
+    "content": "Cash-Bag cashback wallet",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-value_added_services-3",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "value_added_services",
+    "content": "Lock the Clock premium freeze",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-value_added_services-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "value_added_services",
+    "content": "WellConsult OPD coverage (consultations, diagnostics, pharmacy, gym, wellness) | ReAssure Forever unlimited restoration benefit | Cash-Bag cashback wallet | Lock the Clock premium freeze",
+    "feature_tags": [
+      "restore",
+      "opd"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-0",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "Premium locked at entry age until first claim",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-1",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "M-iracle SI accumulates up to 10X over time",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-2",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "Waiting period for maternity depends on variant",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-3",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "Fast Forward and Booster+ benefits work jointly on SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-4",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "Future Ready add-on ensures continuity for future spouse",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-special_conditions-SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "special_conditions",
+    "content": "Premium locked at entry age until first claim | M-iracle SI accumulates up to 10X over time | Waiting period for maternity depends on variant | Fast Forward and Booster+ benefits work jointly on SI | Future Ready add-on ensures continuity for future spouse",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-premium_reference-note",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "premium_reference",
+    "content": "note: Premium depends on variant, SI, age, family size. Discounts applied via Live Healthy, Cash-Bag, and Tiered Network.",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-variant_details-Maternity_Waiting_Period",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_details",
+    "content": "Maternity Waiting Period: 48 months",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Gold+-variant_details-Booster+-Entry_Age_18-35",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 18-35: up to 3X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-variant_details-Booster+-Entry_Age_36-45",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 36-45: up to 2X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-variant_details-Booster+-Entry_Age_46+",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 46+: up to 1X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-variant_details-Lock_the_Clock",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_details",
+    "content": "Lock the Clock: Not Applicable",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Diamond+-variant_details-Maternity_Waiting_Period",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Diamond+",
+    "section": "variant_details",
+    "content": "Maternity Waiting Period: 24 months",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Diamond+-variant_details-Booster+-Entry_Age_18-35",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Diamond+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 18-35: up to 5X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Diamond+-variant_details-Booster+-Entry_Age_36-45",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Diamond+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 36-45: up to 3X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Diamond+-variant_details-Booster+-Entry_Age_46+",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Diamond+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 46+: up to 2X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Diamond+-variant_details-Lock_the_Clock",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Diamond+",
+    "section": "variant_details",
+    "content": "Lock the Clock: Yes",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Platinum+-variant_details-Maternity_Waiting_Period",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Platinum+",
+    "section": "variant_details",
+    "content": "Maternity Waiting Period: 9 months",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Platinum+-variant_details-Booster+-Entry_Age_18-35",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Platinum+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 18-35: up to 10X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Platinum+-variant_details-Booster+-Entry_Age_36-45",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Platinum+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 36-45: up to 5X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Platinum+-variant_details-Booster+-Entry_Age_46+",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Platinum+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 46+: up to 3X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Platinum+-variant_details-Lock_the_Clock",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Platinum+",
+    "section": "variant_details",
+    "content": "Lock the Clock: Yes",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Titanium+-variant_details-Maternity_Waiting_Period",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Titanium+",
+    "section": "variant_details",
+    "content": "Maternity Waiting Period: 9 months",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Aspire-Titanium+-variant_details-Booster+-Entry_Age_18-35",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Titanium+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 18-35: up to 10X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Titanium+-variant_details-Booster+-Entry_Age_36-45",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Titanium+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 36-45: up to 5X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Titanium+-variant_details-Booster+-Entry_Age_46+",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Titanium+",
+    "section": "variant_details",
+    "content": "Booster+ Entry Age 46+: up to 3X",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Titanium+-variant_details-Lock_the_Clock+",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Titanium+",
+    "section": "variant_details",
+    "content": "Lock the Clock+: Yes",
+    "feature_tags": []
+  },
+  {
+    "id": "Aspire-Gold+-VARIANT_SUMMARY",
+    "policy": "Aspire",
+    "insurer": "Niva Bupa",
+    "variant": "Gold+",
+    "section": "variant_summary",
+    "content": "In-patient hospitalization including AYUSH (2+ hrs for all, 24+ hrs for AYUSH) | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (cashless, defined tests) | Unlimited e-consultations (network) | Second medical opinion (network only) | In-patient hospitalization including AYUSH (2+ hrs for all, 24+ hrs for AYUSH) | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Home care/domiciliary up to SI | Organ donor expenses up to SI | Annual health check-up (cashless, defined tests) | Unlimited e-consultations (network) | Second medical opinion (network only) | Unproven treatments not listed | Cosmetic/aesthetic procedures | Maternity expenses until waiting period completed (varies by variant) | Unproven treatments not listed | Cosmetic/aesthetic procedures | Maternity expenses until waiting period completed (varies by variant) | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 36 months | maternity: Varies: Gold+ 48M, Diamond+/Platinum+/Titanium+ 9\u201324M | WellConsult OPD coverage (consultations, diagnostics, pharmacy, gym, wellness) | ReAssure Forever unlimited restoration benefit | Cash-Bag cashback wallet | Lock the Clock premium freeze | WellConsult OPD coverage (consultations, diagnostics, pharmacy, gym, wellness) | ReAssure Forever unlimited restoration benefit | Cash-Bag cashback wallet | Lock the Clock premium freeze",
+    "feature_tags": [
+      "maternity",
+      "restore",
+      "opd",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-3",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-4",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-5",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-6",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-7",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "2Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-sum_insured_options-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "sum_insured_options",
+    "content": "5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 2Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-eligibility-entry_age_individual",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18 years to No Limit",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-eligibility-entry_age_child",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 25 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-eligibility-family_size",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "eligibility",
+    "content": "family_size: Up to 2 Adults + 3 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-eligibility-policy_term",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "eligibility",
+    "content": "policy_term: 1/2/3 years (installments allowed)",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-eligibility-premium_payment",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "eligibility",
+    "content": "premium_payment: Monthly/Quarterly/Half-yearly/Annual",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "In-patient hospitalization including AYUSH, covered up to SI",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 60 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 180 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-3",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Day-care treatments covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-4",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Organ donor expenses up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-5",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Home care/domiciliary hospitalization covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-6",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Road ambulance up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-7",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Air ambulance: up to \u20b95L (optional)",
+    "feature_tags": [
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-8",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "Preventive health check-ups annually",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-9",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "E-opinion on 51 illnesses",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-coverage-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "coverage",
+    "content": "In-patient hospitalization including AYUSH, covered up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Day-care treatments covered up to SI | Organ donor expenses up to SI | Home care/domiciliary hospitalization covered up to SI | Road ambulance up to SI | Air ambulance: up to \u20b95L (optional) | Preventive health check-ups annually | E-opinion on 51 illnesses",
+    "feature_tags": [
+      "air_ambulance",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-exclusions-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "exclusions",
+    "content": "Unproven treatments",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-exclusions-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "exclusions",
+    "content": "Cosmetic or aesthetic surgery",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-exclusions-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "exclusions",
+    "content": "Congenital diseases unless covered under newborn add-on",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-exclusions-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "exclusions",
+    "content": "Unproven treatments | Cosmetic or aesthetic surgery | Congenital diseases unless covered under newborn add-on",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-waiting_periods-initial",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-waiting_periods-specific_diseases",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-waiting_periods-pre_existing_diseases",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 36 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-waiting_periods-maternity",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "waiting_periods",
+    "content": "maternity: 24 months (if opted via add-on)",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-discounts-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "discounts",
+    "content": "25% premium discount if deductible of \u20b93L opted (for SI \u226420L)",
+    "feature_tags": [
+      "deductible"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-discounts-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "discounts",
+    "content": "Long-term discount for 2\u20133 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-discounts-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "discounts",
+    "content": "Wellness-linked renewal benefits",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-discounts-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "discounts",
+    "content": "25% premium discount if deductible of \u20b93L opted (for SI \u226420L) | Long-term discount for 2\u20133 years | Wellness-linked renewal benefits",
+    "feature_tags": [
+      "deductible"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "4X Coverage (Secure+Plus+Restore+Protect combined)",
+    "feature_tags": [
+      "restore",
+      "non_payables"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Preventive health check-ups",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Zero deductions on non-medical expenses (Protect Benefit)",
+    "feature_tags": [
+      "non_payables"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-3",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Cashless claims processing across 15,000+ hospitals",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-4",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Secure Benefit: Automatically increases base sum insured by 100% from day one, at no extra cost",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-5",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Plus Benefit: Adds 100% of base SI every year, max 5X, regardless of claims",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-6",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Restore Benefit: Instant 100% restoration for unrelated illness, unlimited times",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-7",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Multiplier Benefit: No-claim bonus of 50% SI per year, up to 100%, drops by 50% on claim",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-8",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "Stay Active Benefit: Rewards up to 8% discount on renewal for staying healthy",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-value_added_services-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "value_added_services",
+    "content": "4X Coverage (Secure+Plus+Restore+Protect combined) | Preventive health check-ups | Zero deductions on non-medical expenses (Protect Benefit) | Cashless claims processing across 15,000+ hospitals | Secure Benefit: Automatically increases base sum insured by 100% from day one, at no extra cost | Plus Benefit: Adds 100% of base SI every year, max 5X, regardless of claims | Restore Benefit: Instant 100% restoration for unrelated illness, unlimited times | Multiplier Benefit: No-claim bonus of 50% SI per year, up to 100%, drops by 50% on claim | Stay Active Benefit: Rewards up to 8% discount on renewal for staying healthy",
+    "feature_tags": [
+      "restore",
+      "non_payables",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-special_conditions-0",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "special_conditions",
+    "content": "Secure and Plus benefits guaranteed irrespective of claims",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-special_conditions-1",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "special_conditions",
+    "content": "One-time option to waive deductible after 5 years",
+    "feature_tags": [
+      "deductible"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-special_conditions-2",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "special_conditions",
+    "content": "Single claim cannot exceed combined SI + Plus + Secure + Restore benefits",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-special_conditions-SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "special_conditions",
+    "content": "Secure and Plus benefits guaranteed irrespective of claims | One-time option to waive deductible after 5 years | Single claim cannot exceed combined SI + Plus + Secure + Restore benefits",
+    "feature_tags": [
+      "restore",
+      "deductible"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-premium_reference-note",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "premium_reference",
+    "content": "note: Premium varies by SI, age, and deductible chosen. 25% discount for deductible option.",
+    "feature_tags": [
+      "deductible"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-co_pay_rules",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "co_pay_rules",
+    "content": "No co-pay for age <61, 20% after that unless opted otherwise",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-network-hospitals",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "network",
+    "content": "hospitals: 12,000+",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-network-cashless_claim_time",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "network",
+    "content": "cashless_claim_time: Within 60 minutes",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-renewal-lifelong",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "renewal",
+    "content": "lifelong: True",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-renewal-grace_period",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "renewal",
+    "content": "grace_period: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Optima_Secure-Optima_Secure-VARIANT_SUMMARY",
+    "policy": "Optima Secure",
+    "insurer": "HDFC Ergo",
+    "variant": "Optima Secure",
+    "section": "variant_summary",
+    "content": "In-patient hospitalization including AYUSH, covered up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Day-care treatments covered up to SI | Organ donor expenses up to SI | Home care/domiciliary hospitalization covered up to SI | Road ambulance up to SI | Air ambulance: up to \u20b95L (optional) | Preventive health check-ups annually | E-opinion on 51 illnesses | In-patient hospitalization including AYUSH, covered up to SI | Pre-hospitalisation: 60 days | Post-hospitalisation: 180 days | Day-care treatments covered up to SI | Organ donor expenses up to SI | Home care/domiciliary hospitalization covered up to SI | Road ambulance up to SI | Air ambulance: up to \u20b95L (optional) | Preventive health check-ups annually | E-opinion on 51 illnesses | Unproven treatments | Cosmetic or aesthetic surgery | Congenital diseases unless covered under newborn add-on | Unproven treatments | Cosmetic or aesthetic surgery | Congenital diseases unless covered under newborn add-on | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 36 months | maternity: 24 months (if opted via add-on) | 4X Coverage (Secure+Plus+Restore+Protect combined) | Preventive health check-ups | Zero deductions on non-medical expenses (Protect Benefit) | Cashless claims processing across 15,000+ hospitals | Secure Benefit: Automatically increases base sum insured by 100% from day one, at no extra cost | Plus Benefit: Adds 100% of base SI every year, max 5X, regardless of claims | Restore Benefit: Instant 100% restoration for unrelated illness, unlimited times | Multiplier Benefit: No-claim bonus of 50% SI per year, up to 100%, drops by 50% on claim | Stay Active Benefit: Rewards up to 8% discount on renewal for staying healthy | 4X Coverage (Secure+Plus+Restore+Protect combined) | Preventive health check-ups | Zero deductions on non-medical expenses (Protect Benefit) | Cashless claims processing across 15,000+ hospitals | Secure Benefit: Automatically increases base sum insured by 100% from day one, at no extra cost | Plus Benefit: Adds 100% of base SI every year, max 5X, regardless of claims | Restore Benefit: Instant 100% restoration for unrelated illness, unlimited times | Multiplier Benefit: No-claim bonus of 50% SI per year, up to 100%, drops by 50% on claim | Stay Active Benefit: Rewards up to 8% discount on renewal for staying healthy",
+    "feature_tags": [
+      "maternity",
+      "restore",
+      "non_payables",
+      "air_ambulance",
+      "bonus",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-3",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-4",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-5",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-6",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-7",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "1Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-8",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "3Cr",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-9",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "Unlimited",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-sum_insured_options-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "sum_insured_options",
+    "content": "5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 1Cr | 3Cr | Unlimited",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-eligibility-entry_age_individual",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18 years to No Limit",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-eligibility-entry_age_child",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 30 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-eligibility-family_size",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "eligibility",
+    "content": "family_size: Up to 2 Adults + 3 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-eligibility-policy_term",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "eligibility",
+    "content": "policy_term: 1/2/3 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-eligibility-premium_payment",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "eligibility",
+    "content": "premium_payment: Annual with optional installments",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "In-patient hospitalization up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Day care procedures up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Modern treatments up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-3",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 90 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-4",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 180 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-5",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "AYUSH in-patient care up to SI",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-coverage-6",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Road ambulance up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-7",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Organ donor expenses up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-8",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Domiciliary hospitalisation covered",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-9",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Wellness program with discounts, ambulance assistance, health services",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-10",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Bariatric surgery up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-11",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Oocyte donor treatment up to 5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-12",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "Surrogacy patient treatment up to 5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-coverage-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "coverage",
+    "content": "In-patient hospitalization up to SI | Day care procedures up to SI | Modern treatments up to SI | Pre-hospitalisation: 90 days | Post-hospitalisation: 180 days | AYUSH in-patient care up to SI | Road ambulance up to SI | Organ donor expenses up to SI | Domiciliary hospitalisation covered | Wellness program with discounts, ambulance assistance, health services | Bariatric surgery up to SI | Oocyte donor treatment up to 5L | Surrogacy patient treatment up to 5L",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-exclusions-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-exclusions-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "exclusions",
+    "content": "Cosmetic or aesthetic procedures",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-exclusions-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "exclusions",
+    "content": "PED not covered until waiting period completed",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-exclusions-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "exclusions",
+    "content": "Unproven treatments not listed | Cosmetic or aesthetic procedures | PED not covered until waiting period completed",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-waiting_periods-initial",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-waiting_periods-specific_diseases",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-waiting_periods-pre_existing_diseases",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 36 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-waiting_periods-maternity",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "waiting_periods",
+    "content": "maternity: 24 months (if opted as add-on)",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-discounts-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "discounts",
+    "content": "Wellness points: up to 30% discount on renewal",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-discounts-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "discounts",
+    "content": "Family and long-term discounts available",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-discounts-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "discounts",
+    "content": "Zone-based premium variations",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-discounts-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "discounts",
+    "content": "Wellness points: up to 30% discount on renewal | Family and long-term discounts available | Zone-based premium variations",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Guaranteed cumulative bonus: 20% SI/year, up to 100% (no reduction after claim)",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Unlimited reset of SI for any illness",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Wellness rewards linked to activity tracking",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-3",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Apollo 24|7 tie-in for health services",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-4",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "2X / 3X Multiplier: Boosts base sum insured by 2X or 3X over time with no-claim bonus",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-5",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Unlimited Reset: 100% reset of SI for unrelated illnesses, unlimited times",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-6",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Outpatient Cover: OPD consultations and pharmacy covered up to INR 5,000\u201315,000 based on variant",
+    "feature_tags": [
+      "opd"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-7",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Wellness Points: Earn rewards through health tracking and redeem on premiums",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-8",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "No Room Rent Limit: Freedom to choose any room type without restrictions",
+    "feature_tags": [
+      "room_rent"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-value_added_services-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "value_added_services",
+    "content": "Guaranteed cumulative bonus: 20% SI/year, up to 100% (no reduction after claim) | Unlimited reset of SI for any illness | Wellness rewards linked to activity tracking | Apollo 24|7 tie-in for health services | 2X / 3X Multiplier: Boosts base sum insured by 2X or 3X over time with no-claim bonus | Unlimited Reset: 100% reset of SI for unrelated illnesses, unlimited times | Outpatient Cover: OPD consultations and pharmacy covered up to INR 5,000\u201315,000 based on variant | Wellness Points: Earn rewards through health tracking and redeem on premiums | No Room Rent Limit: Freedom to choose any room type without restrictions",
+    "feature_tags": [
+      "room_rent",
+      "restore",
+      "opd",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-0",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "Infinite Care must be opted in first 2 policy years",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-1",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "PED waiver available only through Jumpstart Add-on",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-2",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "Maternity coverage capped (50k\u20131L) with 2 deliveries allowed",
+    "feature_tags": [
+      "maternity",
+      "ped"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-3",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "Voluntary co-payment 10\u201350% available",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-4",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "Room rent: any category unless modified",
+    "feature_tags": [
+      "room_rent"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-special_conditions-SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "special_conditions",
+    "content": "Infinite Care must be opted in first 2 policy years | PED waiver available only through Jumpstart Add-on | Maternity coverage capped (50k\u20131L) with 2 deliveries allowed | Voluntary co-payment 10\u201350% available | Room rent: any category unless modified",
+    "feature_tags": [
+      "maternity",
+      "ped",
+      "room_rent",
+      "copay"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-premium_reference-note",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "premium_reference",
+    "content": "note: Premium based on SI, age bands, family size, and zone (4-zone system). Optional covers affect pricing.",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-co_pay_rules",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "co_pay_rules",
+    "content": "No co-pay by default unless customized",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Elevate-Elevate-network-hospitals",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "network",
+    "content": "hospitals: 7,500+",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-network-cashless_claim_time",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "network",
+    "content": "cashless_claim_time: Within 60 minutes",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-renewal-lifelong",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "renewal",
+    "content": "lifelong: True",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-renewal-grace_period",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "renewal",
+    "content": "grace_period: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Elevate-Elevate-VARIANT_SUMMARY",
+    "policy": "Elevate",
+    "insurer": "ICICI Lombard",
+    "variant": "Elevate",
+    "section": "variant_summary",
+    "content": "In-patient hospitalization up to SI | Day care procedures up to SI | Modern treatments up to SI | Pre-hospitalisation: 90 days | Post-hospitalisation: 180 days | AYUSH in-patient care up to SI | Road ambulance up to SI | Organ donor expenses up to SI | Domiciliary hospitalisation covered | Wellness program with discounts, ambulance assistance, health services | Bariatric surgery up to SI | Oocyte donor treatment up to 5L | Surrogacy patient treatment up to 5L | In-patient hospitalization up to SI | Day care procedures up to SI | Modern treatments up to SI | Pre-hospitalisation: 90 days | Post-hospitalisation: 180 days | AYUSH in-patient care up to SI | Road ambulance up to SI | Organ donor expenses up to SI | Domiciliary hospitalisation covered | Wellness program with discounts, ambulance assistance, health services | Bariatric surgery up to SI | Oocyte donor treatment up to 5L | Surrogacy patient treatment up to 5L | Unproven treatments not listed | Cosmetic or aesthetic procedures | PED not covered until waiting period completed | Unproven treatments not listed | Cosmetic or aesthetic procedures | PED not covered until waiting period completed | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 36 months | maternity: 24 months (if opted as add-on) | Guaranteed cumulative bonus: 20% SI/year, up to 100% (no reduction after claim) | Unlimited reset of SI for any illness | Wellness rewards linked to activity tracking | Apollo 24|7 tie-in for health services | 2X / 3X Multiplier: Boosts base sum insured by 2X or 3X over time with no-claim bonus | Unlimited Reset: 100% reset of SI for unrelated illnesses, unlimited times | Outpatient Cover: OPD consultations and pharmacy covered up to INR 5,000\u201315,000 based on variant | Wellness Points: Earn rewards through health tracking and redeem on premiums | No Room Rent Limit: Freedom to choose any room type without restrictions | Guaranteed cumulative bonus: 20% SI/year, up to 100% (no reduction after claim) | Unlimited reset of SI for any illness | Wellness rewards linked to activity tracking | Apollo 24|7 tie-in for health services | 2X / 3X Multiplier: Boosts base sum insured by 2X or 3X over time with no-claim bonus | Unlimited Reset: 100% reset of SI for unrelated illnesses, unlimited times | Outpatient Cover: OPD consultations and pharmacy covered up to INR 5,000\u201315,000 based on variant | Wellness Points: Earn rewards through health tracking and redeem on premiums | No Room Rent Limit: Freedom to choose any room type without restrictions",
+    "feature_tags": [
+      "maternity",
+      "ped",
+      "room_rent",
+      "restore",
+      "opd",
+      "bonus",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Care-Care-sum_insured_options-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "7.5L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "10L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-3",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "15L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-4",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "20L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-5",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "25L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-6",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "50L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-7",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "75L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-sum_insured_options-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "sum_insured_options",
+    "content": "5L | 7.5L | 10L | 15L | 20L | 25L | 50L | 75L",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-eligibility-entry_age_individual",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "eligibility",
+    "content": "entry_age_individual: 18 years to No Limit",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-eligibility-entry_age_child",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "eligibility",
+    "content": "entry_age_child: 91 days to 24 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-eligibility-family_size",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "eligibility",
+    "content": "family_size: 2 Adults + 4 Children",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-eligibility-policy_term",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "eligibility",
+    "content": "policy_term: 1/2/3 years",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "In-patient hospitalization including ICU charges up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Pre-hospitalisation: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Post-hospitalisation: 60\u2013180 days (depending on variant)",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-3",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Day-care procedures covered up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-4",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Organ donor expenses up to SI",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-5",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "AYUSH in-patient care up to SI",
+    "feature_tags": [
+      "ayush"
+    ]
+  },
+  {
+    "id": "Care-Care-coverage-6",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Ambulance expenses (road) covered",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-7",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Air ambulance (higher SI variants)",
+    "feature_tags": [
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "Care-Care-coverage-8",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Annual health check-up",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-coverage-9",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Unlimited automatic SI restoration after 1st claim",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Care-Care-coverage-10",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "Cumulative bonus up to 100% SI",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Care-Care-coverage-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "coverage",
+    "content": "In-patient hospitalization including ICU charges up to SI | Pre-hospitalisation: 30 days | Post-hospitalisation: 60\u2013180 days (depending on variant) | Day-care procedures covered up to SI | Organ donor expenses up to SI | AYUSH in-patient care up to SI | Ambulance expenses (road) covered | Air ambulance (higher SI variants) | Annual health check-up | Unlimited automatic SI restoration after 1st claim | Cumulative bonus up to 100% SI",
+    "feature_tags": [
+      "restore",
+      "air_ambulance",
+      "bonus",
+      "ayush"
+    ]
+  },
+  {
+    "id": "Care-Care-exclusions-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "exclusions",
+    "content": "Unproven or experimental treatments",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-exclusions-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "exclusions",
+    "content": "Cosmetic and aesthetic procedures",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-exclusions-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "exclusions",
+    "content": "Pre-existing diseases until waiting period completed",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "Care-Care-exclusions-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "exclusions",
+    "content": "Unproven or experimental treatments | Cosmetic and aesthetic procedures | Pre-existing diseases until waiting period completed",
+    "feature_tags": [
+      "ped"
+    ]
+  },
+  {
+    "id": "Care-Care-waiting_periods-initial",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "waiting_periods",
+    "content": "initial: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-waiting_periods-specific_diseases",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "waiting_periods",
+    "content": "specific_diseases: 24 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-waiting_periods-pre_existing_diseases",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "waiting_periods",
+    "content": "pre_existing_diseases: 48 months",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-waiting_periods-maternity",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "waiting_periods",
+    "content": "maternity: 12\u201324 months depending on add-on",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Care-Care-discounts-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "discounts",
+    "content": "Long-term policy discount",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-discounts-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "discounts",
+    "content": "Early renewal discount",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-discounts-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "discounts",
+    "content": "Wellness-linked renewal rewards",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-discounts-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "discounts",
+    "content": "Long-term policy discount | Early renewal discount | Wellness-linked renewal rewards",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Wellness rewards (up to 20%)",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Access to Apollo network doctors",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Teleconsultations and second opinions",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-3",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Annual health check-up from Year 1",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-4",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Unlimited Automatic Recharge: Recharge up to 100% of SI for different illness, unlimited times",
+    "feature_tags": [
+      "restore"
+    ]
+  },
+  {
+    "id": "Care-Care-value_added_services-5",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "No Claim Bonus Super: 50% increase in SI per year, up to 100% even with claims",
+    "feature_tags": [
+      "bonus"
+    ]
+  },
+  {
+    "id": "Care-Care-value_added_services-6",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Care Shield Add-on: Covers inflation, ensures no proportionate deduction, and additional coverage",
+    "feature_tags": [
+      "room_rent"
+    ]
+  },
+  {
+    "id": "Care-Care-value_added_services-7",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Daily Allowance: Allowance for hospital stay, varies by variant",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-8",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Global Coverage: Available with optional add-on",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-value_added_services-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "value_added_services",
+    "content": "Wellness rewards (up to 20%) | Access to Apollo network doctors | Teleconsultations and second opinions | Annual health check-up from Year 1 | Unlimited Automatic Recharge: Recharge up to 100% of SI for different illness, unlimited times | No Claim Bonus Super: 50% increase in SI per year, up to 100% even with claims | Care Shield Add-on: Covers inflation, ensures no proportionate deduction, and additional coverage | Daily Allowance: Allowance for hospital stay, varies by variant | Global Coverage: Available with optional add-on",
+    "feature_tags": [
+      "room_rent",
+      "restore",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Care-Care-special_conditions-0",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "special_conditions",
+    "content": "NCB capped at 100% SI",
+    "feature_tags": [
+      "ped",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Care-Care-special_conditions-1",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "special_conditions",
+    "content": "Maternity benefit optional and available only if selected",
+    "feature_tags": [
+      "maternity"
+    ]
+  },
+  {
+    "id": "Care-Care-special_conditions-2",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "special_conditions",
+    "content": "Air ambulance benefit available only at higher SI",
+    "feature_tags": [
+      "air_ambulance"
+    ]
+  },
+  {
+    "id": "Care-Care-special_conditions-SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "special_conditions",
+    "content": "NCB capped at 100% SI | Maternity benefit optional and available only if selected | Air ambulance benefit available only at higher SI",
+    "feature_tags": [
+      "maternity",
+      "ped",
+      "air_ambulance",
+      "bonus"
+    ]
+  },
+  {
+    "id": "Care-Care-premium_reference-note",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "premium_reference",
+    "content": "note: Premium depends on SI, age, and family size; discounts applied for long term and wellness.",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-co_pay_rules",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "co_pay_rules",
+    "content": "20% co-pay for age \u226561 unless waived by rider",
+    "feature_tags": [
+      "copay"
+    ]
+  },
+  {
+    "id": "Care-Care-network-hospitals",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "network",
+    "content": "hospitals: 19,000+",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-network-cashless_claim_time",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "network",
+    "content": "cashless_claim_time: Within 2 hours",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-renewal-lifelong",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "renewal",
+    "content": "lifelong: True",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-renewal-grace_period",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "renewal",
+    "content": "grace_period: 30 days",
+    "feature_tags": []
+  },
+  {
+    "id": "Care-Care-VARIANT_SUMMARY",
+    "policy": "Care",
+    "insurer": "Care Health Insurance",
+    "variant": "Care",
+    "section": "variant_summary",
+    "content": "In-patient hospitalization including ICU charges up to SI | Pre-hospitalisation: 30 days | Post-hospitalisation: 60\u2013180 days (depending on variant) | Day-care procedures covered up to SI | Organ donor expenses up to SI | AYUSH in-patient care up to SI | Ambulance expenses (road) covered | Air ambulance (higher SI variants) | Annual health check-up | Unlimited automatic SI restoration after 1st claim | Cumulative bonus up to 100% SI | In-patient hospitalization including ICU charges up to SI | Pre-hospitalisation: 30 days | Post-hospitalisation: 60\u2013180 days (depending on variant) | Day-care procedures covered up to SI | Organ donor expenses up to SI | AYUSH in-patient care up to SI | Ambulance expenses (road) covered | Air ambulance (higher SI variants) | Annual health check-up | Unlimited automatic SI restoration after 1st claim | Cumulative bonus up to 100% SI | Unproven or experimental treatments | Cosmetic and aesthetic procedures | Pre-existing diseases until waiting period completed | Unproven or experimental treatments | Cosmetic and aesthetic procedures | Pre-existing diseases until waiting period completed | initial: 30 days | specific_diseases: 24 months | pre_existing_diseases: 48 months | maternity: 12\u201324 months depending on add-on | Wellness rewards (up to 20%) | Access to Apollo network doctors | Teleconsultations and second opinions | Annual health check-up from Year 1 | Unlimited Automatic Recharge: Recharge up to 100% of SI for different illness, unlimited times | No Claim Bonus Super: 50% increase in SI per year, up to 100% even with claims | Care Shield Add-on: Covers inflation, ensures no proportionate deduction, and additional coverage | Daily Allowance: Allowance for hospital stay, varies by variant | Global Coverage: Available with optional add-on | Wellness rewards (up to 20%) | Access to Apollo network doctors | Teleconsultations and second opinions | Annual health check-up from Year 1 | Unlimited Automatic Recharge: Recharge up to 100% of SI for different illness, unlimited times | No Claim Bonus Super: 50% increase in SI per year, up to 100% even with claims | Care Shield Add-on: Covers inflation, ensures no proportionate deduction, and additional coverage | Daily Allowance: Allowance for hospital stay, varies by variant | Global Coverage: Available with optional add-on",
+    "feature_tags": [
+      "maternity",
+      "ped",
+      "room_rent",
+      "restore",
+      "air_ambulance",
+      "bonus",
+      "ayush"
+    ]
+  }
+]
