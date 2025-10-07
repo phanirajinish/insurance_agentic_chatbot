@@ -3,12 +3,12 @@ import streamlit as st
 
 COSTS = {
     "gpt-4o-mini": {
-        "input": 0.15 / 1_000_000,
-        "output": 0.60 / 1_000_000
+        "input":  0.00015,
+        "output": 0.00060 
     },
     "gpt-4o": {
-        "input": 5.00 / 1_000_000,
-        "output": 15.00 / 1_000_000
+        "input": 5.00 / 1000,
+        "output": 15.00 / 1000
     }
 }
 
@@ -22,6 +22,8 @@ def call_gpt(messages, model="gpt-4o-mini", temperature=0):
 
     api_key = st.secrets["openai"]["api_key"]
     client = OpenAI(api_key=api_key)
+
+    # print(messages)
 
     response = client.chat.completions.create(
         model=model,
@@ -38,10 +40,12 @@ def call_gpt(messages, model="gpt-4o-mini", temperature=0):
     total_tokens = usage.total_tokens
 
     cost_usd = (
-        input_tokens * COSTS[model]["input"]
-        + output_tokens * COSTS[model]["output"]
+        (input_tokens / 1000) * COSTS[model]["input"]
+        + (output_tokens / 1000) * COSTS[model]["output"]
     )
-    cost_inr = cost_usd * 83  # conversion rate placeholder
+    cost_inr = cost_usd * 83
+
+    # print(total_tokens)
 
     return {
         "output": output,

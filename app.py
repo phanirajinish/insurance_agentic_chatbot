@@ -1,6 +1,7 @@
 import streamlit as st
 from controller.chat_controller import run_chat_controller
 import pandas as pd
+
 # ----------------------------
 # Session State Initialization
 # ----------------------------
@@ -37,14 +38,16 @@ if "form_members" not in st.session_state:
 if "form_children" not in st.session_state:
     st.session_state.form_children = []
 
-# ----------------------------
-# Load Files
-# ----------------------------    
 
+# ----------------------------
 # Initial Bot Greeting
 # ----------------------------
 if not st.session_state.chat_history:
-    st.session_state.chat_history.append(("assistant", "Hi! How can I help you today?"))
+    st.session_state.chat_history.append((
+        "assistant",
+        "Welcome to Apollo 24|7 Health Insurance! 🛡️\n\nI'm here to help you find the perfect health insurance plan tailored to your needs. With our wide hospital network and comprehensive coverage options, we've got you covered!\n\n**I can help you with:**\n• Finding the best plan for you and your family\n• Comparing different insurance policies\n• Explaining coverage features, riders, and benefits\n• Answering questions about claims, eligibility, and more\n\nWhat would you like to explore today?"
+    ))
+
 
 # ----------------------------
 # Sidebar
@@ -53,8 +56,24 @@ with st.sidebar:
     st.header("Token usage")
     st.write(f"Total tokens: {st.session_state.total_tokens}")
     st.write(f"Estimated cost: ₹{st.session_state.total_cost_inr:.4f}")
+
     st.subheader("User profile")
     st.json(st.session_state.user_profile)
+
+    st.markdown("---")
+    st.subheader("Session Controls")
+
+    # Reset Profile button
+    if st.button("🔄 Reset Profile"):
+        st.session_state.user_profile = {}
+        st.session_state.last_bot_action = "reset_profile"
+        st.session_state.show_profile_form = False
+        st.session_state.chat_history.append(("assistant", "✅ Profile has been reset. Let's start fresh! What do you want to know about Health Insurance"))
+
+    # End Session button
+    if st.button("⏹ End Session"):
+        st.session_state.clear()
+        st.rerun()
 
 # ----------------------------
 # Title
@@ -71,7 +90,7 @@ for role, message in st.session_state.chat_history:
 # ----------------------------
 # Chat Input
 # ----------------------------
-user_input = st.chat_input("Ask me about insurance ...")
+user_input = st.chat_input("Ask me about Health insurance ...")
 
 # ----------------------------
 # On new user input, run controller
@@ -103,13 +122,13 @@ if user_input:
     st.session_state.last_bot_action = response.get("updated_last_action", st.session_state.last_bot_action)
     st.session_state.total_tokens = response.get("total_tokens", st.session_state.total_tokens)
     st.session_state.total_cost_inr = response.get("total_cost_inr", st.session_state.total_cost_inr)
-
+    # print(st.session_state.total_tokens, st.session_state.total_cost_inr)
 # ----------------------------
 # Always render profile form if flag is set
 # ----------------------------
 def render_profile_form():
     with st.chat_message("assistant"):
-        st.markdown("### Let's get you profile right!")
+        st.markdown("### Let's get your profile right!")
 
         # --- Gender ---
         gender = st.radio(
@@ -213,8 +232,7 @@ def render_profile_form():
                 )
                 st.session_state.form_children[idx]["age"] = 0 if age == "<1" else int(age)
 
-        ### Pre-existing conditions (for any family member)       
-
+        # --- Pre-existing conditions ---
         st.markdown("Pre-existing conditions (for any family member)")
         ped_options = [
             "Diabetes",
@@ -224,10 +242,16 @@ def render_profile_form():
             "Cancer (past or present)",
             "None of the above"
         ]
+        # selected_peds = st.multiselect(
+        #     "Select all that apply",
+        #     ped_options,
+        #     default=["None of the above"] if not st.session_state.get("form_peds") else st.session_state["form_peds"],
+        #     key="form_peds"
+        # )
         selected_peds = st.multiselect(
             "Select all that apply",
             ped_options,
-            default=["None of the above"] if not st.session_state.get("form_peds") else st.session_state["form_peds"],
+            default=st.session_state.get("form_peds", []),  # empty by default
             key="form_peds"
         )
 
@@ -247,10 +271,9 @@ def render_profile_form():
             }
 
             st.session_state.user_profile.update(profile_update)
-            st.session_state.last_bot_action = "static"  # not directly recommend
+            st.session_state.last_bot_action = "static"
             st.session_state.show_profile_form = False
 
-            # conversational reply instead of direct recommendation
             reply = "Thanks, I’ve updated your profile. Would you like me to recommend the best plan, or compare options?"
             members_str = "\n".join([f"  • {m['relation'].capitalize()}: {m['age']} yrs" for m in members])
             summary_text = (
@@ -266,8 +289,6 @@ def render_profile_form():
 
             st.session_state.chat_history.append(("assistant", summary_text))
             st.session_state.chat_history.append(("assistant", reply))
-
-
 
 
 # render profile form if flag is set
