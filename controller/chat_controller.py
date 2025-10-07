@@ -211,6 +211,7 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
             
             5. End with: "Which plan interests you most? I can show you premium details or explain any features in detail!"
 
+<<<<<<< HEAD
             Data for your recommendation:
             {explanations}
             
@@ -222,6 +223,15 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
             - Make comparison table FEATURE-RICH with specifics
             - Connect features to user's needs explicitly
             - Make it believable by showing WHY each feature matters for them
+=======
+            Recommendation data:
+            Top 3 ranked plans: {top3}
+            All scores: {score_fit}
+            User attributes: {recom_resp.get('user_attributes')}
+            Relevant needs: {user_needs}
+            Suggested term: Suggest best term 1/2/ 3 years for this Profile
+            Sum Insured: Infer best SI for this profile in Lakh
+>>>>>>> ee9a3c77d6f49b5a64335a0d2194d3475cfbcb83
         """)
 
         # --- GPT call ---
@@ -236,6 +246,7 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
         total_cost_inr += gpt_response["cost_inr"]
 
     elif result["action"] == "compare":
+<<<<<<< HEAD
         # Check if we should ask more profile questions first
         if should_ask_more_questions(updated_profile, "compare"):
             next_question = get_next_profile_question(updated_profile)
@@ -254,6 +265,65 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
         
         # Use new matrix-based recommendation engine
         recom_resp = get_matrix_recommendations(updated_profile, top_n=3)
+=======
+        recom_resp = score_plans_and_recommend(user_profile=updated_profile)
+
+        # --- prepare score data ---
+        score_fit = recom_resp.get("score_fit", {})
+        score_fit_sorted = sorted(score_fit.items(), key=lambda x: x[1], reverse=True)
+
+        # top 3 distinct plans
+        seen = set()
+        top3 = []
+        for plan, score in score_fit_sorted:
+            if plan not in seen:
+                top3.append((plan, score))
+                seen.add(plan)
+            if len(top3) == 3:
+                break
+
+        # --- collect relevant needs from those top plans ---
+        user_needs = []
+        for plan, _ in top3:
+            user_needs.extend(recom_resp.get("needs", {}).get(plan, []))
+        user_needs = list(set(user_needs))
+
+        # --- build system prompt for comparison ---
+        system_prompt = textwrap.dedent(f"""
+            You are an insurance advisor. Based on the user profile and the retrieved data,
+            generate a **comparison** across the top 3 plans.
+
+            1. Create a clean Markdown table with columns:
+            - Plan Name
+            - Score
+            - Key Benefits (only the ones relevant to user profile: {user_needs})
+            - Riders (if applicable)
+            - Waiting Periods / Limitations (if available from KB)
+
+            2. After the table, write 3–4 bullet points highlighting the **main differences**
+            between these plans (coverage, riders, exclusions, limits).
+
+            3. End with a short, conversational follow-up question nudging the user to explore
+            premiums, request a callback, or connect with an expert.
+
+            Data for reference:
+            Top 3 ranked plans: {top3}
+            All scores: {score_fit}
+            User attributes: {recom_resp.get('user_attributes')}
+            Relevant needs: {user_needs}
+        """)
+
+        # --- GPT call ---
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": f"User intent: compare. Question: {user_input}"}
+        ]
+        gpt_response = call_gpt(messages)
+
+        reply = gpt_response["output"]
+        total_tokens += gpt_response["tokens_used"]
+        total_cost_inr += gpt_response["cost_inr"]
+>>>>>>> ee9a3c77d6f49b5a64335a0d2194d3475cfbcb83
 
         # --- prepare score data from matrix engine ---
         top_policies = recom_resp.get("top_policies", [])

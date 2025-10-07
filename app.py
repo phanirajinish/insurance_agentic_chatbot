@@ -38,14 +38,21 @@ if "form_members" not in st.session_state:
 if "form_children" not in st.session_state:
     st.session_state.form_children = []
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ee9a3c77d6f49b5a64335a0d2194d3475cfbcb83
 # ----------------------------
 # Initial Bot Greeting
 # ----------------------------
 if not st.session_state.chat_history:
     st.session_state.chat_history.append((
         "assistant",
+<<<<<<< HEAD
         "Welcome to Apollo 24|7 Health Insurance! 🛡️\n\nI'm here to help you find the perfect health insurance plan tailored to your needs. With our wide hospital network and comprehensive coverage options, we've got you covered!\n\n**I can help you with:**\n• Finding the best plan for you and your family\n• Comparing different insurance policies\n• Explaining coverage features, riders, and benefits\n• Answering questions about claims, eligibility, and more\n\nWhat would you like to explore today?"
+=======
+        "How great it is to choose Apollo 24|7 — with our wide hospital network and needs-based insurance designed for everyone. How can we help you today?"
+>>>>>>> ee9a3c77d6f49b5a64335a0d2194d3475cfbcb83
     ))
 
 
