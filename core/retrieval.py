@@ -116,26 +116,65 @@ def retrieve_answer(query, top_k=5, summarize=True, conversational=True):
     q = query.lower()
 
     # --- Structured KB Queries ---
-    if "policy" in q and ("have" in q or "list" in q):
-        policies = list_all_policies()
-        output = "We offer the following health insurance policies:\n\n"
-        for p in policies[:5]:  # Show top 5
-            output += f"• **{p['policy']}** by {p['insurer']}\n"
-        if conversational:
-            output += "\n💡 Would you like to know more about any specific policy, or shall I recommend the best one for you?"
-        return {
-            "output": output,
-            "tokens_used": 0,
-            "input_tokens": 0,
-            "output_tokens": 0,
-            "cost_usd": 0.0,
-            "cost_inr": 0.0
-        }
+    # General policy listing (expanded pattern matching)
+    policy_list_keywords = [
+        ("polic", "have"), ("polic", "list"), ("polic", "offer"),
+        ("polic", "available"), ("polic", "provide"), ("polic", "sell"),
+        ("what polic", ""), ("show polic", ""), ("tell polic", ""),
+        ("all polic", ""), ("your polic", "")
+    ]
+    
+    should_list_all = False
+    for kw1, kw2 in policy_list_keywords:
+        if kw2:
+            if kw1 in q and kw2 in q:
+                should_list_all = True
+                break
+        else:
+            if kw1 in q:
+                should_list_all = True
+                break
+    
+    if should_list_all:
+        # Make sure it's not asking about a specific insurer
+        insurer_in_query = any(ins in q for ins in ["hdfc", "icici", "star", "niva", "care"])
+        
+        if not insurer_in_query:
+            policies = list_all_policies()
+            output = "We offer the following health insurance policies:\n\n"
+            for p in policies:
+                output += f"• **{p['policy']}** by {p['insurer']}\n"
+            if conversational:
+                output += "\n💡 Would you like to know more about any specific policy, or shall I recommend the best one for you?"
+            return {
+                "output": output,
+                "tokens_used": 0,
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "cost_usd": 0.0,
+                "cost_inr": 0.0
+            }
 
-    # Check if asking about specific insurer's policies
-    for insurer_keyword in ["hdfc", "icici", "star health", "niva bupa", "care health"]:
-        if insurer_keyword in q and ("policy" in q or "policies" in q or "plan" in q or "plans" in q):
-            policies = get_policies_by_insurer(insurer_keyword)
+    # Check if asking about specific insurer's policies (improved matching)
+    insurer_keywords = {
+        "hdfc": ["hdfc"],
+        "icici": ["icici"],
+        "star": ["star health", "star"],
+        "niva": ["niva bupa", "niva"],
+        "care": ["care health", "care"]
+    }
+    
+    for insurer_key, variations in insurer_keywords.items():
+        # Check if any variation of the insurer name is in the query
+        insurer_found = any(var in q for var in variations)
+        # Check if query is about policies/plans
+        policy_mentioned = any(word in q for word in ["polic", "plan", "product", "scheme"])
+        
+        if insurer_found and policy_mentioned:
+            # Get the primary keyword for lookup
+            lookup_keyword = variations[0].split()[0]  # Get first word (hdfc, icici, etc)
+            policies = get_policies_by_insurer(lookup_keyword)
+            
             if policies:
                 output = f"Here are the policies from **{policies[0]['insurer']}**:\n\n"
                 for p in policies:
@@ -143,9 +182,10 @@ def retrieve_answer(query, top_k=5, summarize=True, conversational=True):
                 if conversational:
                     output += f"\n💡 Would you like to know more about any of these plans or compare them?"
             else:
-                output = f"I couldn't find any policies from {insurer_keyword.title()} in our current offerings. We work with HDFC Ergo, ICICI Lombard, Star Health, Niva Bupa, and Care Health Insurance."
+                output = f"I couldn't find any policies from {variations[0].title()} in our current offerings. We work with HDFC Ergo, ICICI Lombard, Star Health, Niva Bupa, and Care Health Insurance."
                 if conversational:
                     output += "\n\n💡 Would you like to see all available policies or get a recommendation?"
+            
             return {
                 "output": output,
                 "tokens_used": 0,
