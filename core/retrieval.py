@@ -195,6 +195,52 @@ def retrieve_answer(query, top_k=5, summarize=True, conversational=True):
                 "cost_inr": 0.0
             }
     
+    # FALLBACK: Use GPT for ambiguous insurer queries (e.g., "what about icici", "and hdfc?")
+    # Check if any insurer is mentioned but policy keywords are missing
+    detected_insurer = None
+    for insurer_key, variations in insurer_keywords.items():
+        if any(var in q for var in variations):
+            detected_insurer = insurer_key
+            break
+    
+    if detected_insurer and len(q.split()) <= 6:  # Short query with insurer name
+        # Use GPT to understand intent
+        gpt_prompt = f"""User query: "{query}"
+
+Is the user asking about insurance policies/plans from this insurer?
+Answer with ONLY "yes" or "no"."""
+        
+        gpt_response = call_gpt(
+            [{"role": "user", "content": gpt_prompt}],
+            model="gpt-4o-mini",
+            temperature=0
+        )
+        
+        intent_response = gpt_response.get("output", "").strip().lower()
+        
+        if "yes" in intent_response:
+            # User is asking about policies from this insurer
+            lookup_keyword = insurer_keywords[detected_insurer][0].split()[0]
+            policies = get_policies_by_insurer(lookup_keyword)
+            
+            if policies:
+                output = f"Here are the policies from **{policies[0]['insurer']}**:\n\n"
+                for p in policies:
+                    output += f"• **{p['policy']}** (Variants: {', '.join(p['variants'])})\n"
+                if conversational:
+                    output += f"\n💡 Would you like to know more about any of these plans or compare them?"
+            else:
+                output = f"I couldn't find any policies from {lookup_keyword.title()} in our current offerings."
+            
+            return {
+                "output": output,
+                "tokens_used": gpt_response.get("tokens_used", 0),
+                "input_tokens": gpt_response.get("input_tokens", 0),
+                "output_tokens": gpt_response.get("output_tokens", 0),
+                "cost_usd": gpt_response.get("cost_usd", 0.0),
+                "cost_inr": gpt_response.get("cost_inr", 0.0)
+            }
+    
     # General insurer list query
     if "company" in q or "insurer" in q:
         insurers = list_all_insurers()
