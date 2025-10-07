@@ -168,42 +168,9 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
     # Unknown / Fallback
     # -------------------------
     if intent == "unknown":
-# Step 5: Unknown intent (context-aware handling)
-    # Case A: Profile incomplete → push to ask_info
-        if not is_profile_complete(updated_profile):
-            return {
-                "action": "ask_info",
-                "response": None,  # handled later by GPT or deterministic mapping
-                "updated_profile": updated_profile,
-                "updated_last_action": "ask_info"
-            }
-
-        # Case B: Last action was recommend → assume user wants clarification or comparison
-        if last_bot_action == "recommend":
-            return {
-                "action": "compare",
-                "response": None,
-                "updated_profile": updated_profile,
-                "updated_last_action": "compare"
-            }
-
-        # Case C: Last action was greeting or static → nudge towards recommendation
-        if last_bot_action in ["greeting", "static"]:
-            return {
-                "action": "recommend",
-                "response": None,
-                "updated_profile": updated_profile,
-                "updated_last_action": "recommend"
-            }
-
-        # Case D: Default fallback
         return {
             "action": "static",
-<<<<<<< HEAD
             "response": "I didn't quite catch that, but I'm here to help! 😊\n\nI can assist you with:\n• Explaining insurance terms and concepts\n• Recommending the best plans for your needs\n• Comparing different policies\n• Answering questions about coverage, claims, and more\n\nWhat would you like to explore?",
-=======
-            "response": "I didn’t quite get that. Do you want me to explain terms, recommend plans, or help compare options?",
->>>>>>> ee9a3c77d6f49b5a64335a0d2194d3475cfbcb83
             "updated_profile": updated_profile,
             "updated_last_action": "unknown",
             "flow_suggest": flow_suggest("unknown", hop_count)
