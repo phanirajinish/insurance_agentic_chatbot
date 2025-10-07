@@ -90,6 +90,59 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
     print(intent)
     print(result)
     print('----------------------')
+    
+    # Step 3.5: SAFETY CHECK - Don't ask for profile on catalog queries
+    # If GPT misclassified a catalog query, catch it here
+    if result["action"] == "ask_info":
+        # Check if user is asking about policies/plans/insurers (catalog browsing)
+        # Use GPT to determine if this is really a catalog query
+        user_lower = user_input.lower()
+        catalog_indicators = ['polic', 'plan', 'insurer', 'company', 'hdfc', 'icici', 
+                             'star', 'niva', 'care', 'offer', 'have', 'available']
+        
+        if any(indicator in user_lower for indicator in catalog_indicators):
+            # Possible catalog query - verify with GPT
+            verify_prompt = f"""User query: "{user_input}"
+
+Is this user asking to BROWSE available insurance policies/plans/insurers (general catalog query)?
+OR are they asking for PERSONALIZED recommendations specifically for them?
+
+Answer ONLY "catalog" or "personalized"."""
+            
+            verify_response = call_gpt(
+                [{"role": "user", "content": verify_prompt}],
+                model="gpt-4o-mini",
+                temperature=0
+            )
+            
+            total_tokens += verify_response.get("tokens_used", 0)
+            total_cost_inr += verify_response.get("cost_inr", 0)
+            
+            verification = verify_response.get("output", "").strip().lower()
+            
+            if "catalog" in verification:
+                # Override: This is a catalog query, not profile collection
+                # Route to RAG retrieval
+                retrieval_response = retrieve_answer(
+                    query=user_input,
+                    top_k=5,
+                    summarize=True,
+                    conversational=True
+                )
+                reply = retrieval_response["output"]
+                total_tokens += retrieval_response["tokens_used"]
+                total_cost_inr += retrieval_response["cost_inr"]
+                
+                return {
+                    "reply": reply,
+                    "action": "catalog_info",
+                    "updated_profile": updated_profile,
+                    "updated_last_action": "catalog_info",
+                    "total_tokens": total_tokens,
+                    "total_cost_inr": total_cost_inr,
+                    "flow_suggest": []
+                }
+    
     # Step 4: Generate reply
     if result["action"] == "ask_info":
         miss = missing_fields(result["updated_profile"])
@@ -209,7 +262,13 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
                Make it detailed and feature-rich to show WHY these plans match their needs perfectly.
             {apollo_advantage}
             
-            5. End with: "Which plan interests you most? I can show you premium details or explain any features in detail!"
+            5. End with a helpful conversational close:
+               "💬 Want to explore more? I can:
+               • Show you premium estimates for any of these plans
+               • Explain specific features in detail (like PED coverage, room rent, etc.)
+               • Compare these plans side-by-side
+               
+               What would you like to know?"
 
             Data for your recommendation:
             {explanations}

@@ -262,15 +262,11 @@ def should_ask_more_questions(user_profile: Dict, action_requested: str) -> bool
         return False
     
     # For recommendations, we want at least some needs info
+    # BUT don't force questions if user explicitly wants recommendations
     if action_requested in ["recommend", "compare"]:
-        # If they have NO needs info yet, ask at least a few questions
-        if status["needs_answered"] == 0:
-            return True
-        # If they've answered at least 3 needs questions, that's enough
-        if status["needs_answered"] >= 3:
-            return False
-        # Otherwise, continue asking
-        return not status["needs_complete"]
+        # If they have basic info, allow recommendations
+        # Don't force sequential questions - they're optional enhancements
+        return False
     
     # For other actions, basic + health is enough
     return not status["health_complete"]

@@ -53,12 +53,53 @@ if not st.session_state.chat_history:
 # Sidebar
 # ----------------------------
 with st.sidebar:
-    st.header("Token usage")
-    st.write(f"Total tokens: {st.session_state.total_tokens}")
-    st.write(f"Estimated cost: ₹{st.session_state.total_cost_inr:.4f}")
+    st.header("📊 Session Stats")
+    st.metric("Tokens Used", f"{st.session_state.total_tokens:,}")
+    st.metric("Cost", f"₹{st.session_state.total_cost_inr:.4f}")
 
-    st.subheader("User profile")
-    st.json(st.session_state.user_profile)
+    st.markdown("---")
+    st.subheader("👤 Your Profile")
+    
+    profile = st.session_state.user_profile
+    
+    if not profile or len(profile) == 0:
+        st.info("No profile data yet. Start chatting to build your profile!")
+    else:
+        # Basic Info
+        if profile.get("gender") or profile.get("location"):
+            st.markdown("**Basic Info:**")
+            if profile.get("gender"):
+                st.write(f"👤 Gender: {profile['gender']}")
+            if profile.get("location"):
+                st.write(f"📍 Location: {profile['location']}")
+        
+        # Family Members
+        if profile.get("members") and len(profile["members"]) > 0:
+            st.markdown("**Family Coverage:**")
+            for member in profile["members"]:
+                relation = member.get("relation", "Unknown")
+                age = member.get("age", "?")
+                st.write(f"👨‍👩‍👧‍👦 {relation.title()}: {age} years")
+        
+        # Health Conditions
+        peds = [k for k in profile.keys() if k.startswith("has_") and profile[k] is True]
+        if peds:
+            st.markdown("**Health Conditions:**")
+            for ped_key in peds:
+                condition = ped_key.replace("has_", "").replace("_", " ").title()
+                st.write(f"🏥 {condition}")
+        
+        # Insurance Needs
+        needs = [k for k in profile.keys() if (k.startswith("needs_") or k.startswith("planning_")) and profile[k] is True]
+        if needs:
+            st.markdown("**Insurance Needs:**")
+            for need_key in needs:
+                need = need_key.replace("needs_", "").replace("planning_", "").replace("_", " ").title()
+                st.write(f"✅ {need}")
+        
+        # Show raw data in expander (for debugging)
+        with st.expander("🔧 View Raw Data"):
+            st.json(profile)
 
     st.markdown("---")
     st.subheader("Session Controls")

@@ -13,6 +13,34 @@ def classify_intent(user_input: str, model="gpt-4o-mini") -> str:
     # Pre-process common typos and variations before GPT
     user_lower = user_input.lower().strip()
     
+    # Catalog queries (MUST check BEFORE recommend to avoid profile collection)
+    # These are general "what do you have" queries WITHOUT personalization
+    catalog_patterns = [
+        ('polic', 'have'), ('polic', 'offer'), ('polic', 'provide'),
+        ('polic', 'sell'), ('polic', 'available'), ('polic', 'from'),
+        ('plan', 'have'), ('plan', 'offer'), ('plan', 'provide'),
+        ('plan', 'sell'), ('plan', 'available'), ('plan', 'from'),
+        ('what polic', ''), ('show polic', ''), ('list polic', ''),
+        ('tell polic', ''), ('all polic', ''), ('polic', 'there'),
+        ('what plan', ''), ('show plan', ''), ('list plan', ''),
+        ('tell plan', ''), ('all plan', ''), ('plan', 'there'),
+        ('what insurers', ''), ('which insurers', ''),
+        ('what companies', ''), ('which companies', '')
+    ]
+    
+    # Check if it's a catalog query WITHOUT personalization words
+    personalizing_words = ['me', 'my', 'for me', 'i ', 'i\'m']
+    has_personalization = any(word in user_lower for word in personalizing_words)
+    
+    if not has_personalization:  # Only catalog if NOT personalized
+        for pattern1, pattern2 in catalog_patterns:
+            if pattern2:
+                if pattern1 in user_lower and pattern2 in user_lower:
+                    return {"output": "catalog_info", "tokens_used": 0, "cost_inr": 0}
+            else:
+                if pattern1 in user_lower:
+                    return {"output": "catalog_info", "tokens_used": 0, "cost_inr": 0}
+    
     # Premium variations (common typos and shortcuts)
     premium_keywords = ['premium', 'premum', 'prmium', 'primium', 'premiun', 
                        'price', 'cost', 'pricing', 'amount', 'payment', 
@@ -20,9 +48,9 @@ def classify_intent(user_input: str, model="gpt-4o-mini") -> str:
     if any(keyword in user_lower for keyword in premium_keywords):
         return {"output": "premium_quote", "tokens_used": 0, "cost_inr": 0}
     
-    # Recommend variations
-    recommend_keywords = ['recommend', 'suggest', 'best plan', 'which plan', 
-                         'what plan', 'help me choose', 'find plan']
+    # Recommend variations (personalized queries)
+    recommend_keywords = ['recommend', 'suggest', 'best plan for', 'which plan for', 
+                         'help me choose', 'find plan for me', 'best for me']
     if any(keyword in user_lower for keyword in recommend_keywords):
         return {"output": "recommend", "tokens_used": 0, "cost_inr": 0}
     
@@ -38,6 +66,14 @@ def classify_intent(user_input: str, model="gpt-4o-mini") -> str:
     # Negation variations
     if user_lower in ['no', 'nope', 'nah', 'not interested', 'skip', 'later']:
         return {"output": "negation", "tokens_used": 0, "cost_inr": 0}
+    
+    # Policy interest (user mentions a specific policy name)
+    policy_names = ['super star', 'reassure', 'aspire', 'optima secure', 
+                   'elevate', 'care', 'optima', 'super']
+    if any(policy in user_lower for policy in policy_names):
+        # Check if it's a short response (likely answering "which plan interests you?")
+        if len(user_lower.split()) <= 5:
+            return {"output": "policy_query", "tokens_used": 0, "cost_inr": 0}
 
     system_prompt = """
     You are an intent classifier for a health insurance chatbot. 
