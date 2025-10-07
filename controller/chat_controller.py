@@ -30,6 +30,10 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
     intent_result = classify_intent(user_input)
     intent = intent_result["output"]
     
+    # Track costs from intent classification
+    total_tokens += intent_result.get("tokens_used", 0)
+    total_cost_inr += intent_result.get("cost_inr", 0)
+    
     # Step 2.5: Handle sequential profiling (NEW!)
     # If last action was asking a sequential question, capture the response
     if last_bot_action and last_bot_action.startswith("asking_"):
@@ -84,6 +88,10 @@ def run_chat_controller(user_input, user_profile, last_bot_action, total_tokens,
         last_bot_action=last_bot_action,
         hop_count=hop_count
     )
+    
+    # Track costs from dialogue manager (profile extraction happens there)
+    total_tokens += result.get("tokens_used", 0)
+    total_cost_inr += result.get("cost_inr", 0)
 
     print('----------------------')
     print(user_input)

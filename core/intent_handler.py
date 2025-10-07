@@ -213,7 +213,11 @@ def flow_suggest(previous_intent: str, hop_count: int = 0, model="gpt-4o-mini"):
     }
 
     if previous_intent in mapping:
-        return mapping[previous_intent]
+        return {
+            "output": mapping[previous_intent],
+            "tokens_used": 0,
+            "cost_inr": 0.0
+        }
 
     # GPT fallback
     system_prompt = """
@@ -231,5 +235,9 @@ def flow_suggest(previous_intent: str, hop_count: int = 0, model="gpt-4o-mini"):
 
     result = call_gpt(messages, model=model, temperature=0)
 
-
-    return result["output"] 
+    # Return both the output and cost tracking information
+    return {
+        "output": result["output"],
+        "tokens_used": result.get("tokens_used", 0),
+        "cost_inr": result.get("cost_inr", 0.0)
+    } 

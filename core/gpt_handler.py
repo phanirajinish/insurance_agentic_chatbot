@@ -5,10 +5,6 @@ COSTS = {
     "gpt-4o-mini": {
         "input":  0.00015,
         "output": 0.00060 
-    },
-    "gpt-4o": {
-        "input": 5.00 / 1000,
-        "output": 15.00 / 1000
     }
 }
 

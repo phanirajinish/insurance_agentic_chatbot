@@ -31,7 +31,14 @@ def merge_members(existing, new):
 
 def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count=0):
     # Step 1: extract + merge
-    new_info = gpt_profile_extractor(user_input)
+    extraction_result = gpt_profile_extractor(user_input)
+    new_info = extraction_result.get("extracted_data", {})
+    
+    # Track costs from profile extraction
+    extraction_tokens = extraction_result.get("tokens_used", 0)
+    extraction_cost_inr = extraction_result.get("cost_inr", 0.0)
+    extraction_cost_usd = extraction_result.get("cost_usd", 0.0)
+    
     updated_profile = dict(user_profile)
     updated_profile["gender"] = new_info.get("gender") or user_profile.get("gender")
     updated_profile["location"] = new_info.get("location") or user_profile.get("location")
@@ -41,12 +48,15 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
     # Static / Simple Intents
     # -------------------------
     if intent == "greeting":
+        flow_result = flow_suggest(intent, hop_count)
         return {
             "action": "static",
             "response": "Hello! 👋 I'm here to help you find the perfect health insurance plan from Apollo 24|7. Whether you want to explore different plans, get personalized recommendations, or learn about coverage options - I'm here for you! What would you like to know?",
             "updated_profile": updated_profile,
             "updated_last_action": "greeting",
-            "flow_suggest": flow_suggest(intent, hop_count)
+            "flow_suggest": flow_result.get("output", []),
+            "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+            "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
         }
 
     if intent == "goodbye":
@@ -54,7 +64,9 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
             "action": "static",
             "response": "Thank you for exploring Apollo 24|7 health insurance with me! Feel free to come back anytime you need help. Stay healthy! 🛡️",
             "updated_profile": updated_profile,
-            "updated_last_action": "goodbye"
+            "updated_last_action": "goodbye",
+            "tokens_used": extraction_tokens,
+            "cost_inr": extraction_cost_inr
         }
 
     if intent == "negation":
@@ -62,7 +74,9 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
             "action": "static",
             "response": "No problem! I'm here whenever you're ready. Feel free to ask me anything about health insurance plans, coverage, or get personalized recommendations. What else can I help you with?",
             "updated_profile": updated_profile,
-            "updated_last_action": "negation"
+            "updated_last_action": "negation",
+            "tokens_used": extraction_tokens,
+            "cost_inr": extraction_cost_inr
         }
 
     # -------------------------
@@ -75,12 +89,15 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
     ]
     if intent in knowledge_intents:
         # These will be handled by RAG retrieval in chat_controller
+        flow_result = flow_suggest(intent, hop_count)
         return {
             "action": "call_gpt",  # This triggers RAG in controller
             "response": None,
             "updated_profile": updated_profile,
             "updated_last_action": intent,
-            "flow_suggest": flow_suggest(intent, hop_count)
+            "flow_suggest": flow_result.get("output", []),
+            "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+            "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
         }
 
     # -------------------------
@@ -96,12 +113,15 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
                 "Use 4-5 concise bullet points and end with a question like "
                 "'Would you like to know which type suits you best?'"
             )
+            flow_result = flow_suggest("concept_followup", hop_count)
             return {
                 "action": "call_gpt",
                 "response": followup_context,  # pass this to GPTHandler for contextual response
                 "updated_profile": updated_profile,
                 "updated_last_action": "concept_followup",
-                "flow_suggest": flow_suggest("concept_followup", hop_count)
+                "flow_suggest": flow_result.get("output", []),
+                "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+                "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
             }
 
         elif last_bot_action == "recommend":
@@ -109,15 +129,20 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
                 "action": "static",
                 "response": "Great! I'm glad you found a plan that works for you. 🎉\n\nWould you like to:\n• See detailed premium breakdowns?\n• Compare this with other top plans?\n• Learn more about specific coverage features?\n• Connect with an advisor to finalize your policy?",
                 "updated_profile": updated_profile,
-                "updated_last_action": "recommend_followup"
+                "updated_last_action": "recommend_followup",
+                "tokens_used": extraction_tokens,
+                "cost_inr": extraction_cost_inr
             }
         elif last_bot_action == "ask_info":
+            flow_result = flow_suggest("ask_info", hop_count)
             return {
                 "action": "ask_info",
                 "response": "Let's complete your profile to tailor the best plans for you.",
                 "updated_profile": updated_profile,
                 "updated_last_action": "ask_info",
-                "flow_suggest": flow_suggest("ask_info", hop_count)
+                "flow_suggest": flow_result.get("output", []),
+                "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+                "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
             }
         else:
             # Default: proceed to recommend if profile ready, else ask info
@@ -125,12 +150,15 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
                 next_intent = "recommend"
             else:
                 next_intent = "ask_info"
+            flow_result = flow_suggest(next_intent, hop_count)
             return {
                 "action": next_intent,
                 "response": None,
                 "updated_profile": updated_profile,
                 "updated_last_action": next_intent,
-                "flow_suggest": flow_suggest(next_intent, hop_count)
+                "flow_suggest": flow_result.get("output", []),
+                "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+                "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
             }
 
 
@@ -143,12 +171,15 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
     ]
     if intent in profile_update_intents:
         next_intent = "recommend" if is_profile_complete(updated_profile) else "ask_info"
+        flow_result = flow_suggest(next_intent, hop_count)
         return {
             "action": next_intent,
             "response": None,
             "updated_profile": updated_profile,
             "updated_last_action": next_intent,
-            "flow_suggest": flow_suggest(next_intent, hop_count)
+            "flow_suggest": flow_result.get("output", []),
+            "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+            "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
         }
 
     # -------------------------
@@ -156,30 +187,39 @@ def handle_dialogue(user_input, user_profile, intent, last_bot_action, hop_count
     # -------------------------
     if intent in ["recommend", "compare", "premium_quote"]:
         next_intent = intent if is_profile_complete(updated_profile) else "ask_info"
+        flow_result = flow_suggest(next_intent, hop_count)
         return {
             "action": next_intent,
             "response": None,
             "updated_profile": updated_profile,
             "updated_last_action": next_intent,
-            "flow_suggest": flow_suggest(next_intent, hop_count)
+            "flow_suggest": flow_result.get("output", []),
+            "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+            "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
         }
 
     # -------------------------
     # Unknown / Fallback
     # -------------------------
     if intent == "unknown":
+        flow_result = flow_suggest("unknown", hop_count)
         return {
             "action": "static",
             "response": "I didn't quite catch that, but I'm here to help! 😊\n\nI can assist you with:\n• Explaining insurance terms and concepts\n• Recommending the best plans for your needs\n• Comparing different policies\n• Answering questions about coverage, claims, and more\n\nWhat would you like to explore?",
             "updated_profile": updated_profile,
             "updated_last_action": "unknown",
-            "flow_suggest": flow_suggest("unknown", hop_count)
+            "flow_suggest": flow_result.get("output", []),
+            "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+            "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
         }
 
+    flow_result = flow_suggest("fallback", hop_count)
     return {
         "action": "fallback",
         "response": "I'm not sure I understood that correctly. Could you rephrase your question? Or would you like me to help you explore our insurance plans instead?",
         "updated_profile": updated_profile,
         "updated_last_action": "fallback",
-        "flow_suggest": flow_suggest("fallback", hop_count)
+        "flow_suggest": flow_result.get("output", []),
+        "tokens_used": extraction_tokens + flow_result.get("tokens_used", 0),
+        "cost_inr": extraction_cost_inr + flow_result.get("cost_inr", 0.0)
     }

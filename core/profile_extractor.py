@@ -39,4 +39,10 @@ def gpt_profile_extractor(user_input: str, model="gpt-4o-mini") -> dict:
     except Exception:
         extracted = {}
 
-    return extracted
+    # Return extracted data along with cost information
+    return {
+        "extracted_data": extracted,
+        "tokens_used": response.get("tokens_used", 0),
+        "cost_inr": response.get("cost_inr", 0.0),
+        "cost_usd": response.get("cost_usd", 0.0)
+    }
